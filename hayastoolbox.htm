@@ -1,0 +1,265 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META name="GENERATOR" content="JustSystems Homepage Builder Version 22.0.2.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>HAYA'S　TOOL　BOX</TITLE>
+<SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_ROV_50
+//
+// Licensed Materials - Property of IBM
+// 83H7391, 42L1820
+// (C) Copyright IBM Corp. 1995, 1999  All Rights Reserved.
+//
+// Version: 5.0.1
+//
+
+// HpbImgPreload: 画像のプリロードを行ないます
+//
+function HpbImgPreload()
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=(document.layers && (appVer >= 4)); // Netscape Navigator 4.0 or later
+  var isIE=(document.all    && (appVer >= 4)); // Internet Explorer  4.0 or later
+  if (isNC || isIE)
+  {
+    if (document.images)
+    {
+      var imgName = HpbImgPreload.arguments[0];
+      var cnt;
+      swImg[imgName] = new Array;
+      for (cnt = 1; cnt < HpbImgPreload.arguments.length; cnt++)
+      {
+        swImg[imgName][HpbImgPreload.arguments[cnt]] = new Image();
+        swImg[imgName][HpbImgPreload.arguments[cnt]].src = HpbImgPreload.arguments[cnt];
+      }
+    }
+  }
+}
+// HpbImgFind: Imageオブジェクトを探します
+//
+function HpbImgFind(doc, imgName)
+{
+  for (var i=0; i < doc.layers.length; i++)
+  {
+    var img = doc.layers[i].document.images[imgName];
+    if (!img) img = HpbImgFind(doc.layers[i], imgName);
+    if (img) return img;
+  }
+  return null;
+}
+// HpbImgSwap: 画像を入れ換えます
+//
+function HpbImgSwap(imgName, imgSrc)
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=(document.layers && (appVer >= 4)); // Netscape Navigator 4.0 or later
+  var isIE=(document.all    && (appVer >= 4)); // Internet Explorer  4.0 or later
+  if (isNC || isIE)
+  {
+    if (document.images)
+    {
+      var img = document.images[imgName];
+      if (!img) img = HpbImgFind(document, imgName);
+      if (img) img.src = imgSrc;
+    }
+  }
+}
+var swImg; swImg=new Array;
+//-->
+</SCRIPT><SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_PLD_50
+HpbImgPreload('_HPB_ROLLOVER2', 'hizumi1.JPG', 'hizumi11.JPG');
+HpbImgPreload('_HPB_ROLLOVER3', 'nob1.JPG', 'nob11.JPG');
+HpbImgPreload('_HPB_ROLLOVER4', 'yasunori1.JPG', 'yasunori11.JPG');
+HpbImgPreload('_HPB_ROLLOVER1', 'haya1.JPG', 'haya11.JPG');
+//-->
+</SCRIPT></HEAD>
+<BODY bgcolor="#000000" text="#ffffff" vlink="#000099">
+<DIV align="left">
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD colspan="3"><B><FONT size="+3" color="#0000ff">TOOLBOX</FONT></B></TD>
+    </TR>
+      <TR>
+        <TD colspan="3">&nbsp;最新機材</TD>
+      </TR>
+      <TR>
+        <TD colspan="2">&nbsp;<IMG src="hayapedal.JPG" width="397" height="205" border="0"></TD>
+        <TD style="text-align : left;
+	vertical-align : top;
+"><B><SPAN style="font-size : 150%;">dw MCD</SPAN><SPAN style="font-size : 150%;">2</SPAN></B></TD>
+      </TR>
+      <TR>
+      <TD colspan="3"><B>FROM OUTSIDE</B></TD>
+    </TR>
+    <TR>
+      <TD colspan="2" align="center"><IMG src="htb011.jpg" width="181" height="130" border="0"></TD>
+      <TD valign="top"><FONT size="-1">正面から<BR>
+      黒いシートの上のが私のセットでございます。<BR>
+      簡単に言うと、１バス・２タム・１フロアで<BR>
+      スネアが１、クラッシュが３、チャイナが１ハットとトップも一枚づつのシンプルなセットです。<BR>
+      タムがバスドラの中心線にないのは、２バス時の名残でしょうか？<BR>
+      通称“廃盤セット”と申します。</FONT></TD>
+    </TR>
+    <TR>
+      <TD colspan="3"></TD>
+    </TR>
+    <TR>
+      <TD colspan="2" align="center"><IMG src="htb021.jpg" width="179" height="125" border="0"></TD>
+      <TD align="left" valign="top"><FONT size="-1">こちらはタムです。<BR>
+      スネア以外はソナーのフォニック・プラス（廃盤）で、材質はスカンジナビア・ピーチです。<BR>
+      口径は12'x12'と14'x14'のスクエアサイズ。<BR>
+      音量と低音を重視したセットになっています。<BR>
+      詳しく書くと、14プライの11ミリ（厚っ!）でバスドラに至っては２５Ｋｇ以上ありそうな重さです。（実際Ｆタムが、他のメーカーのＢドラに近いです。）</FONT></TD>
+    </TR>
+    <TR>
+      <TD colspan="3"></TD>
+    </TR>
+    <TR>
+      <TD colspan="2" align="center"><IMG src="htb031.jpg" width="179" height="125" border="0"></TD>
+      <TD valign="top"><FONT size="-1">で、バスドラとフロアです。<BR>
+      フロアは16'ｘ17'。口径より長さが１インチ長い変わったサイズ。<BR>
+      バスドラは24'ｘ18'とこれまた深胴。<BR>
+      この材質と厚さ、深さのせいで泣いた対バンのドラマーは数知れず。「使いたくない！」と言われることもしばしば。<BR>
+      でも私はこのソナー独特の野性味（？）のある鳴りと音の太さ、低音の広がり（特にレコーディング時の）マイクのりの良さが大変気に入っております。<BR>
+      ちょっと言いすぎ？ホメすぎですね・・・はい。<BR>
+      そんなに大したモノではございません。</FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+<DIV align="center">
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD colspan="3"><B>ＯＶＥＲＬＯＯＫ</B></TD>
+    </TR>
+    <TR>
+      <TD align="center"><IMG src="htb041.jpg" width="149" height="104" border="0"></TD>
+      <TD align="center"><IMG src="htb052.jpg" width="149" height="104" border="0"></TD>
+      <TD align="center"><IMG src="htb061.jpg" width="148" height="105" border="0"></TD>
+    </TR>
+    <TR>
+      <TD valign="top"><FONT size="-1">上から見るとこんな感じ。<BR>
+      ＳｙｍとＴｏｍのそれぞれの間の狭さが<BR>
+      わかると思います。<BR>
+      チャイナの横のクラッシュは加工して<BR>
+      あります。<BR>
+      （良く見るとへこんだところがあるのが<BR>
+      判ります？）</FONT></TD>
+      <TD valign="top"><FONT size="-1">シンバル<BR>
+      全部パイステです。<BR>
+      チャイナ以外はサウンド・クリエーションでこれまた廃盤です。<BR>
+      ハットはダーク・ヘビーハットというやつで、読んで字のごとしの音がします。<BR>
+      緑青がたくさん浮いていますが、気にしないでください。<BR>
+      手塚治虫が&quot;ブッタ”の中で、人に食わせてましたけど、食べてはいけません。<BR>
+      せいぜい絵の具の材料にしておきましょう。<BR>
+      毒です。</FONT></TD>
+      <TD align="left" valign="top"><FONT size="-1">フロントのクラッシュは全く同じものが２枚です。<BR>
+      ブライト・ライド（18'）というやつで、ものすごく苦労して（私ではなく、楽器屋さんが）手に入れた物です。<BR>
+      これまた、読んで字のごとしって音で（サウンド・クリエーションだから当たり前か？）とても明るい、しかも厚みのあるしっかりした音が出るライドシンバルです。</FONT></TD>
+    </TR>
+    <TR>
+      <TD align="center"><IMG src="htb071.jpg" width="148" height="105" border="0"></TD>
+      <TD align="center" colspan="2"><IMG src="htb081.jpg" width="148" height="105" border="0"></TD>
+    </TR>
+    <TR>
+      <TD valign="top"><FONT size="-1">座った目線で一枚撮りました。<BR>
+      ライブで皆に「手しか見えない」と言われる<BR>
+      理由がわかります。（目の前タムだもんね・・・）</FONT></TD>
+      <TD valign="top" colspan="2"><FONT size="-1">右手側（前から見たら左側）の３枚です。<BR>
+      トップはベル・ライドの22'で、これが割れたりしたら、ショックで死んでしまうかもしれない位のお気に入りです。<BR>
+      このベルの音域の広さと太さ、またショルダーのレガットのツブ立ち・・・。大のお気に入りでございます、はい。<BR>
+      チャイナは現行モノ。ザ・パイステ（あれ？まだあったっけ？）のシンチャイナの20'でございます。<BR>
+      チャイナはうすめ軽めの安っぽい音が好きなので、これにしてます。<BR>
+      ただ、ライブでの音の通り、音量を考えて大きめの20'にしています。<BR>
+      あと一枚は加工済ブライト・ライド。なぜ加工なのかは言いたくないです。（笑）<BR>
+      奥に見えるジルジャンは関係なし！スタジオのです。</FONT></TD>
+    </TR>
+    <TR>
+      <TD align="center"><IMG src="htb11.jpg" width="147" height="103" border="0"></TD>
+      <TD colspan="2" rowspan="2"></TD>
+    </TR>
+    <TR>
+      <TD valign="top"><FONT size="-1">上から見た足まわりです。<BR>
+      ツインペダルのシャフト（ペダルをつなげている黒いモノ）よりもスネアスタンドが向こう側にあり、左側のペダルにハットスタンドの足がかぶっていないセッティングになっています。（皆に「これって変」と言われていますが・・・。）</FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD colspan="3"><B>ＯＴＨＥＲＳ</B></TD>
+    </TR>
+    <TR>
+      <TD align="center"><IMG src="htb121.jpg" width="147" height="103" border="0"></TD>
+      <TD align="center"><IMG src="htb101.jpg" width="147" height="103" border="0"></TD>
+      <TD align="center"><IMG src="htb091.jpg" width="104" height="147" border="0"></TD>
+    </TR>
+    <TR>
+      <TD><FONT size="-1">ペダルは見ての通りＤＷです。<BR>
+      フットペダルの先っぽのバランサー（？）はつけられるだけつけています。やっぱりアタック出ないと・・・ねえ！重くて辛いけど・・・。<BR>
+      ビーターはダンマーに交換してます。角ビーターと呼んでいますが、デカイさいころのようなビーターで、さらに長さもエクストラ・ロングを使っています。（この長さだと24'でも真中を叩けますよ。）<BR>
+      長さ・重さともにノーマルのビーターの1.5倍ぐらい（長さはそんなでもないっす）あるのでウッドやファイバーのカタいアタックじゃなくてもっとデカい音とアタックを！という人にはとてもオススメです。重くて辛いけど・・・。<BR>
+      ビーターの角度にも理由があるのですが、あまり長くなるのもなんなので、お楽しみにって事で（何がだ？）</FONT></TD>
+      <TD valign="top"><FONT size="-1">これがスネアです。（プレートを写したかったのですが白くトンでしまいました。）<BR>
+      メーカーはソナーで（と言うかハードウエアもほとんどソナー）スネアだけシグネイチャーです。ＨＬＤ－590というやつで、ブロンズ削り出しで、15Ｋｇあります。（激重）<BR>
+      この重さのため並のスネアスタンドでは角度や高さをキープ出来ないので、スネアスタンドもシグネイチャーです。<BR>
+      口径は14'ｘ8'で12本ラグ仕様（廃盤）<BR>
+      今は10本ラグのみカタログに出ているようです。</FONT></TD>
+      <TD align="left" valign="top"><FONT size="-1">こちらはスティクです。ビックファースの３Ｓモデルに近いもので、自分でオーダーして、作ってもらってます。（金は出してます！タダじゃないです。）<BR>
+      長さは忘れましたが、太さは18.5ｍｍで、３Ｓよりやや細く、バランスはチップ寄りにって感じです。<BR>
+      ヘッドは全てアクエリアンで、トップがＣＳタイプ、ボトムがクリアーです。<BR>
+      スネアはコーテッドを使ってます。</FONT></TD>
+    </TR>
+    <TR>
+      <TD align="center"><IMG src="htb131.jpg" width="147" height="103" border="0"></TD>
+      <TD align="center"><IMG src="htb151.jpg" width="117" height="140" border="0"></TD>
+      <TD><IMG src="htb161.jpg" width="199" height="123" border="0"></TD>
+    </TR>
+    <TR>
+      <TD valign="top"><FONT size="-1"><FONT size="-1">こんなケースに入れてます。<BR>
+      ちなみに紙で出来ています。</FONT></FONT><BR>
+      </TD>
+      <TD valign="top"><FONT size="-1">こちらはハード（スタンド）類を入れるケース。<BR>
+      &quot;カンオケ&quot;と呼んでいます。</FONT></TD>
+      <TD valign="top"><FONT size="-1">スペアパーツや、アタッチメントの類が入っています。<BR>
+      このペダルはＤＷの初期の物です。<BR>
+      マニアにはたまらないかも？</FONT></TD>
+    </TR>
+    <TR>
+      <TD align="center"><IMG src="htb141.jpg" width="147" height="103" border="0"></TD>
+      <TD align="center"><IMG src="hayatool2.JPG" width="150" height="120" border="0"></TD>
+      <TD align="center"><IMG src="hayatool3.JPG" width="150" height="120" border="0"></TD>
+    </TR>
+    <TR>
+      <TD><FONT size="-1"><FONT size="-1">これはシンバルケースなんですが、白くなってしまってますが、このバンドって判ります？<BR>
+      最近ここのベースだった人物と大阪で飲みました。</FONT></FONT></TD>
+      <TD valign="top"><FONT size="-1">ドラムを叩く時に履くコンバース</FONT></TD>
+      <TD valign="top"><FONT size="-1">ＢＯＳＳのＤｒ．リズムとペットボトルのミ水</FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<FONT color="#ffffff" size="+1">マニアックな質問などありましたら、気軽にライブ会場などで声をかけてください。<BR>
+メールも可です。心波通信あてにください。<BR>
+機材マニアですんで、私は・・・。</FONT><BR>
+<BR>
+<HR>
+<BR>
+</DIV>
+<TABLE>
+  <TBODY>
+    <TR>
+      <TD width="285"><B>BACK　TO</B></TD>
+    </TR>
+    <TR>
+      <TD width="285"><A href="haya.htm" id="_HPB_ROLLOVER1" onmouseout="HpbImgSwap('_HPB_ROLLOVER1', 'haya1.JPG');" onmouseover="HpbImgSwap('_HPB_ROLLOVER1', 'haya11.JPG');"><IMG src="haya1.JPG" width="40" height="40" border="0" name="_HPB_ROLLOVER1" alt="haya"></A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BODY>
+</HTML>

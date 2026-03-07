@@ -1,0 +1,121 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META name="GENERATOR" content="IBM HomePage Builder 2001 V5.0.3 for Windows">
+<TITLE>五反田ファイトクラブ結果発表</TITLE>
+<SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_ROV_50
+//
+// Licensed Materials - Property of IBM
+// 83H7391, 42L1820
+// (C) Copyright IBM Corp. 1995, 1999  All Rights Reserved.
+//
+// Version: 5.0.1
+//
+
+// HpbImgPreload: 画像のプリロードを行ないます
+//
+function HpbImgPreload()
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=(document.layers && (appVer >= 4)); // Netscape Navigator 4.0 or later
+  var isIE=(document.all    && (appVer >= 4)); // Internet Explorer  4.0 or later
+  if (isNC || isIE)
+  {
+    if (document.images)
+    {
+      var imgName = HpbImgPreload.arguments[0];
+      var cnt;
+      swImg[imgName] = new Array;
+      for (cnt = 1; cnt < HpbImgPreload.arguments.length; cnt++)
+      {
+        swImg[imgName][HpbImgPreload.arguments[cnt]] = new Image();
+        swImg[imgName][HpbImgPreload.arguments[cnt]].src = HpbImgPreload.arguments[cnt];
+      }
+    }
+  }
+}
+// HpbImgFind: Imageオブジェクトを探します
+//
+function HpbImgFind(doc, imgName)
+{
+  for (var i=0; i < doc.layers.length; i++)
+  {
+    var img = doc.layers[i].document.images[imgName];
+    if (!img) img = HpbImgFind(doc.layers[i], imgName);
+    if (img) return img;
+  }
+  return null;
+}
+// HpbImgSwap: 画像を入れ換えます
+//
+function HpbImgSwap(imgName, imgSrc)
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=(document.layers && (appVer >= 4)); // Netscape Navigator 4.0 or later
+  var isIE=(document.all    && (appVer >= 4)); // Internet Explorer  4.0 or later
+  if (isNC || isIE)
+  {
+    if (document.images)
+    {
+      var img = document.images[imgName];
+      if (!img) img = HpbImgFind(document, imgName);
+      if (img) img.src = imgSrc;
+    }
+  }
+}
+var swImg; swImg=new Array;
+//-->
+</SCRIPT><SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_PLD_50
+HpbImgPreload('_HPB_ROLLOVER1', 'haya1.JPG', 'haya11.JPG');
+//-->
+</SCRIPT></HEAD>
+<BODY bgcolor="#000000" text="#ffffff" link="#0000cc" vlink="#000099">
+<P><FONT color="#ffffff" face="ＭＳ Ｐ明朝" size="+2">●五反田ファイトクラブ結果発表●</FONT></P>
+<CENTER>
+<TABLE>
+  <TBODY>
+    <TR>
+      <TD align="center" valign="middle" height="36"><FONT size="+4">敗男決定!!</FONT><BR>
+      </TD>
+    </TR>
+    <TR>
+      <TD height="300"><IMG src="gfc181.jpg" width="365" height="259" border="0" align="top"></TD>
+    </TR>
+    <TR>
+      <TD align="center">このまま朝を迎え、もちろん仕事にも行けないＨ。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<CENTER>
+<TABLE>
+  <TBODY>
+    <TR>
+      <TD align="center"><IMG src="gfc191.jpg" width="122" height="86" border="0"></TD>
+    </TR>
+    <TR>
+      <TD align="center">敗男におびえるネコ。</TD>
+    </TR>
+    <TR>
+      <TD align="center"><IMG src="gfc201.jpg" width="122" height="86" border="0"></TD>
+    </TR>
+    <TR>
+      <TD align="center">敗男のにほひを嗅ぐネコ。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</CENTER>
+<TABLE>
+  <TBODY>
+    <TR>
+      <TD>ＢＡＣＫ　ＴＯ</TD>
+    </TR>
+    <TR>
+      <TD align="center"><A href="haya.htm" id="_HPB_ROLLOVER1" onmouseout="HpbImgSwap('_HPB_ROLLOVER1','haya1.JPG');" onmouseover="HpbImgSwap('_HPB_ROLLOVER1','haya11.JPG');"><IMG src="haya1.JPG" width="40" height="40" border="0" name="_HPB_ROLLOVER1" alt="haya"></A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BODY>
+</HTML>
