@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.1.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>news</TITLE>
+<SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_ROV_50
+//
+// Licensed Materials - Property of IBM
+// 83H7391, 42L1820
+// (C) Copyright IBM Corp. 1995, 1999  All Rights Reserved.
+//
+// Version: 5.0.1
+//
+
+// HpbImgPreload: 画像のプリロードを行ないます
+//
+function HpbImgPreload()
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=(document.layers && (appVer >= 4)); // Netscape Navigator 4.0 or later
+  var isIE=(document.all    && (appVer >= 4)); // Internet Explorer  4.0 or later
+  if (isNC || isIE)
+  {
+    if (document.images)
+    {
+      var imgName = HpbImgPreload.arguments[0];
+      var cnt;
+      swImg[imgName] = new Array;
+      for (cnt = 1; cnt < HpbImgPreload.arguments.length; cnt++)
+      {
+        swImg[imgName][HpbImgPreload.arguments[cnt]] = new Image();
+        swImg[imgName][HpbImgPreload.arguments[cnt]].src = HpbImgPreload.arguments[cnt];
+      }
+    }
+  }
+}
+// HpbImgFind: Imageオブジェクトを探します
+//
+function HpbImgFind(doc, imgName)
+{
+  for (var i=0; i < doc.layers.length; i++)
+  {
+    var img = doc.layers[i].document.images[imgName];
+    if (!img) img = HpbImgFind(doc.layers[i], imgName);
+    if (img) return img;
+  }
+  return null;
+}
+// HpbImgSwap: 画像を入れ換えます
+//
+function HpbImgSwap(imgName, imgSrc)
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=(document.layers && (appVer >= 4)); // Netscape Navigator 4.0 or later
+  var isIE=(document.all    && (appVer >= 4)); // Internet Explorer  4.0 or later
+  if (isNC || isIE)
+  {
+    if (document.images)
+    {
+      var img = document.images[imgName];
+      if (!img) img = HpbImgFind(document, imgName);
+      if (img) img.src = imgSrc;
+    }
+  }
+}
+var swImg; swImg=new Array;
+//-->
+</SCRIPT><SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_PLD_50
+HpbImgPreload('_HPB_ROLLOVER1', 'hizumi0111.JPG', 'hizumi011.JPG');
+//-->
+</SCRIPT></HEAD>
+<BODY bgcolor="#000000" text="#ffffff" link="#0066cc" vlink="#6699cc" alink="#33ffff">
+<DIV align="left">
+<TABLE>
+  <TBODY>
+    <TR>
+      <TD><IMG src="c40.jpg" width="104" height="32" border="0"></TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<HR>
+遠い過去に紙媒体でＪＵＲＡＳＳＩＣ　ＪＡＤＥが発信していた「心波新聞」が、発掘されました。<BR>
+当時は、ワープロで打ち出した文字を台紙に貼り付けて原稿を作り、それをコピーしてました。<BR>
+なんとかPCで読めそうなサイズに取り込んでみました。<BR>
+メンバーにとっても、こんなこと考えてたんだなぁという感じです。<BR>
+<BR>
+<TABLE border="0">
+  <TBODY>
+    <TR>
+      <TD align="center" width="118">心波通信Vol.2</TD>
+      <TD width="20"></TD>
+      <TD align="center" width="114">心波通信Ｖol.４</TD>
+      <TD width="17"></TD>
+      <TD width="121" align="center">心波通信Ｖol.５</TD>
+    </TR>
+    <TR>
+      <TD align="center" width="118" height="131"><A href="sympasinbunvol21.htm"><IMG src="sympashinbun21.gif" width="86" height="120" border="0"></A></TD>
+      <TD width="20" height="131"></TD>
+      <TD align="center" width="114" height="131"><A href="sympasinbunvol41.htm"><IMG src="sympasinbun4111.gif" width="86" height="120" border="0"></A></TD>
+      <TD width="17" height="131"></TD>
+      <TD align="center" width="121" height="131"><A href="sympasinbunvol51.htm"><IMG src="sympasinbun512.gif" width="86" height="120" border="0"></A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+<HR>
+<TABLE>
+  <TBODY>
+    <TR>
+      <TD width="78"><B>BACK　TO</B></TD>
+    </TR>
+    <TR>
+      <TD width="78"><A href="contents.htm" id="_HPB_ROLLOVER1" onmouseout="HpbImgSwap('_HPB_ROLLOVER1', 'hizumi0111.JPG');" onmouseover="HpbImgSwap('_HPB_ROLLOVER1', 'hizumi011.JPG');"><IMG src="hizumi0111.JPG" width="40" height="40" border="0" name="_HPB_ROLLOVER1"></A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BODY>
+</HTML>
