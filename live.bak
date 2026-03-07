@@ -1,0 +1,2569 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="GENERATOR" content="JustSystems Homepage Builder Version 17.0.15.0 for Windows">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<TITLE>LIVE</TITLE>
+<SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_ROV_50
+//
+// Licensed Materials - Property of IBM
+// 83H7391, 42L1820
+// (C) Copyright IBM Corp. 1995, 1999  All Rights Reserved.
+//
+// Version: 5.0.1
+//
+
+// HpbImgPreload: 画像のプリロードを行ないます
+//
+function HpbImgPreload()
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=(document.layers && (appVer >= 4)); // Netscape Navigator 4.0 or later
+  var isIE=(document.all    && (appVer >= 4)); // Internet Explorer  4.0 or later
+  if (isNC || isIE)
+  {
+    if (document.images)
+    {
+      var imgName = HpbImgPreload.arguments[0];
+      var cnt;
+      swImg[imgName] = new Array;
+      for (cnt = 1; cnt < HpbImgPreload.arguments.length; cnt++)
+      {
+        swImg[imgName][HpbImgPreload.arguments[cnt]] = new Image();
+        swImg[imgName][HpbImgPreload.arguments[cnt]].src = HpbImgPreload.arguments[cnt];
+      }
+    }
+  }
+}
+// HpbImgFind: Imageオブジェクトを探します
+//
+function HpbImgFind(doc, imgName)
+{
+  for (var i=0; i < doc.layers.length; i++)
+  {
+    var img = doc.layers[i].document.images[imgName];
+    if (!img) img = HpbImgFind(doc.layers[i], imgName);
+    if (img) return img;
+  }
+  return null;
+}
+// HpbImgSwap: 画像を入れ換えます
+//
+function HpbImgSwap(imgName, imgSrc)
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=(document.layers && (appVer >= 4)); // Netscape Navigator 4.0 or later
+  var isIE=(document.all    && (appVer >= 4)); // Internet Explorer  4.0 or later
+  if (isNC || isIE)
+  {
+    if (document.images)
+    {
+      var img = document.images[imgName];
+      if (!img) img = HpbImgFind(document, imgName);
+      if (img) img.src = imgSrc;
+    }
+  }
+}
+var swImg; swImg=new Array;
+//-->
+</SCRIPT><SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_PLD_50
+HpbImgPreload('_HPB_ROLLOVER2', 'hizumi0111.JPG', 'hizumi011.JPG');
+//-->
+</SCRIPT></HEAD>
+<BODY bgcolor="#000000" text="#ffffff" link="#0066cc" vlink="#6699cc" alink="#33ffff">
+<P align="center"><IMG src="c341.gif" width="84" height="25" border="0"></P>
+<HR>
+<hr>
+<p><font size="+4"><b>-<font color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2023</font>-</b></font></p>
+<hr>
+<p><b>2024.03.20 川崎CLUB CITTA'</b><br>
+<br>
+<font size="+1"><b>VIOLENT ATTITUDE 2024</b></font><br>
+</p>
+<hr>
+<p><b><a href="live20231229.html">2023.12.29 新宿WILDSIDE TOKYO</a></b><br>
+<br>
+<font size="+1"><b>YEAR END METAL FEVER 2023</b></font><br>
+</p>
+<hr>
+<p><b><a href="live20231217.html">2023.12.17 新宿WILDSIDE TOKYO</a></b><br>
+<br>
+<font size="+1"><b>CONNECT NOTE</b></font></p>
+<hr>
+<p><span style="color : #ff0000;"><b><span style="font-size : 300%;"></span></b></span><a href="live20231123.html"><b>2023.11.23 新宿WILDSIDE TOKYO</b></a><br>
+<br>
+<font size="+1"><b>B.T.H.NIGHT Vol.4</b></font></p>
+<hr>
+<p><font color="#0066cc"><b><a href="live20231021.html">2023.10.21 富士ANIMAL NEST</a><br>
+<br>
+</b></font><font color="#ffffff" size="+1"><font color="#ffffff"><b>練馬マッチョマン魅惑の対決GIG<br>
+ファイティングマッチョ2023 Vol.3</b></font></font><font color="#0066cc"><b><a href="live20230923.html"><span style="color : #ff0000;"><span style="font-size : 300%;"></span></span><br>
+</a></b></font></p>
+<hr>
+<p><b><a href="live20230923.html">2023.0923 静岡UMBAR</a><br>
+<br>
+<font size="+1" color="#ffffff">Shady Glimpse &amp; 天燐presennts<br>
+</font><font size="+2" color="#ffffff">Risinng Metal Above vol.1</font></b></p>
+<hr>
+<p><span style="color : #ff0000;"><b><span style="font-size : 300%;"></span></b></span><b><a href="live20230814.html">2023.0814 熊谷HEVEN'S ROCK</a></b><br>
+<br>
+<font size="+2" color="#0080ff"><b>RISE AVAVE vol.7<br>
+</b></font><font color="#0080ff"><br>
+</font></p>
+<hr>
+<p><b><a href="live20230716.html">2023.07.16 四日市Club Chaos</a></b><br>
+<br>
+<b><span style="font-size : 200%;
+	color : #0066cc;
+"><span style="color : #0066cc;">Yokkaichi Metal Kombinat 2023</span></span></b><br>
+</p>
+<hr>
+<p><b><a href="live20230625.html">2023.06.25 新宿Wildside Tokyo</a></b><br>
+<br>
+<b><span style="font-size : 200%;
+	color : #0066cc;
+"><span style="color : #0066cc;">UNDER THE SUNS<br>
+「暗闇の怪物の高笑いを聞け・・・・・・」<br>
+monster live again<br>
+</span></span></b></p>
+<hr>
+<p><b><a href="live20230617.html">2023.06.17 中野MOONSTEP</a></b><br>
+<br>
+<b><span><span style="font-size : 200%;
+	color : #0066cc;
+"><span style="color : #0066cc;">Light shines in the darkness</span></span></span></b><br>
+</p>
+<hr>
+<p><span style="color : #ff0000;"><b><span style="font-size : 300%;"><a href="live20230520.html">2023.05.20 名古屋大須UNLIMITS</a></span></b></span><BR>
+<BR>
+<B><SPAN style="font-size : 200%;
+	color : #0066cc;
+"><SPAN style="color : #0066cc;">STONE presents<br>
+STONE COLD CRAZY 010</SPAN></SPAN></B></p>
+<hr>
+<p><span style="color : #ff0000;"><b><span style="font-size : 300%;"><a href="live20230513.html">2023.05.13 南堀江SOCORE FACTORY</a></span></b></span><BR>
+<BR>
+<B><SPAN style="font-size : 200%;
+	color : #0066cc;
+"><SPAN style="color : #0066cc;">JURASSIC JADE &quot;Nyx filia&quot; Release Party<br>
+ニュクスの娘</SPAN></SPAN></B></p>
+<hr>
+<p><span style="color : #ff0000;"><b><span style="font-size : 300%;"><a href="live20230409.html">2023.04.09 新宿LOFT</a></span></b></span><BR>
+<B><SPAN style="font-size : 200%;
+	color : #0066cc;
+"><SPAN style="color : #0066cc;"><br>
+&quot;大森ちかまんナイト&quot;<br>
+新宿編</SPAN></SPAN></B></p>
+<hr>
+<p><span style="color : #ff0000;"><b><span style="font-size : 300%;"><a href="live20230408.html">2023.04.08 新宿WildSide Tokyo</a></span></b></span><BR>
+<BR>
+<B><SPAN style="font-size : 200%;
+	color : #0066cc;
+"><SPAN style="color : #0066cc;">BTH NIGHT Vol.3<br>
+&quot;JURASSIC JADE /Nyx filia&quot;<br>
+Release GIG</SPAN></SPAN></B></p>
+<hr>
+<hr>
+<P style="text-align : center;"><FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2022</FONT>-</B></FONT></P>
+<HR>
+<P style="text-align : center;"><a href="live202201023.html"><span style="font-size : 200%;"><b>2022.10.23 WildSide Tokyo</b></span></a><BR>
+<BR>
+<SPAN style="color : #ffffff;"><B><SPAN style="font-size : 80%;"><SPAN style="font-size : 200%;
+">激昂祭その二</SPAN><SPAN style="font-size : 200%;
+"><br>
+</SPAN></SPAN></B></SPAN></P>
+<hr>
+<P style="text-align : center;"><br>
+<a href="live20220917.html"><span style="font-size : 200%;"><b>2022.09.17 WildSide Tokyo</b></span></a><BR>
+<BR>
+<b><span style="font-size : 200%;
+	color : #0066cc;
+"><span style="color : #ffffff;
+	font-size : 80%;
+">「UNSEEN TERROR」and「PORNOSTATE」<br>
+DOUBLE RELEASE GIG</span></span></b><br>
+<br>
+<br>
+</P>
+<hr>
+<P style="text-align : center;"><A href="live20220312.htm"><SPAN style="font-size : 200%;"><B>2022.03.12 池袋手刀-CHOP-</B></SPAN></A><BR>
+<BR>
+<SPAN style="color : #ffffff;"><B><SPAN style="font-size : 80%;"><SPAN style="font-size : 200%;
+">JURASSIC JADE x ネムレス</SPAN><SPAN style="
+	font-size : 120%;
+"><BR>
+</SPAN><SPAN style="font-size : 200%;
+">「伏魔殿」</SPAN></SPAN></B></SPAN><BR>
+</P>
+<HR>
+<P style="text-align : center;"><SPAN style="font-size : 200%;
+	color : #0000ff;
+"><B><A href="live20220122.htm">2022.01.22 SHINJUKU WILDSIDE TOKYO</A></B></SPAN><BR>
+<SPAN style="font-size : 150%;
+	color : #ffffff;
+"><B>ROSEROSE and TAKANAGER presents</B></SPAN><BR>
+<SPAN style="font-size : 150%;"><B>TRUST THRASH vol.1</B></SPAN><BR>
+</P>
+<hr>
+<HR>
+<P style="text-align : center;"><FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2021</FONT>-</B></FONT><BR>
+</P>
+<HR>
+<P style="text-align : center;"><SPAN style="font-size : 200%;"><B><A href="live20211229.htm">2021.12.29 新宿WILDSIDE TOKYO</A></B></SPAN><BR>
+<BR>
+<SPAN style="font-size : 120%;"><B>YEAR END METAL FEVER 2021</B></SPAN><BR>
+</P>
+<HR>
+<P style="text-align : center;"><B><SPAN style="font-size : 150%;"><A href="live20210926.htm"><SPAN style="font-size : 120%;">2021.09.26 新宿WILDSIDE TOKYO</SPAN></A></SPAN></B><BR>
+<BR>
+<B>ROSEROSE and TAKANAGER presents<BR>
+<SPAN style="font-size : 120%;">MONSTER MOSH vol.1</SPAN></B></P>
+<HR>
+<P style="text-align : center;"><BR>
+<FONT size="+2"><B><A href="live20210814.htm">2021.08.14 熊谷Heaven's Rock VJ-1</A></B></FONT><BR>
+<BR>
+<B><SPAN style="font-size : 120%;">RISE ABOVE Vol.6</SPAN></B><BR>
+</P>
+<HR>
+<P style="text-align : center;"><SPAN style="color : #0088ff;"><FONT size="+2"><B><A href="live20210717.htm">2021.07.17 立川BABEL</A></B></FONT></SPAN><BR>
+<BR>
+<SPAN style="font-size : 120%;"><B>TACHIKAWA METAL FEST DAY-1</B></SPAN><BR>
+</P>
+<HR>
+<P style="text-align : center;"><FONT size="+2"><B><A href="live20210515.htm">2021.05.15 足柄大使館</A></B></FONT><BR>
+<BR>
+<FONT color="#ffffff" size="+3" style="font-size : 200%;"><B> </B></FONT><FONT color="#ffffff"><SPAN style="font-size : 120%;"><B>PAKU-TOH prezents</B></SPAN></FONT><B><FONT color="#ffffff"><SPAN style="font-size : 60%;"><BR>
+</SPAN><SPAN style="font-size : 150%;">EXTREME PORK CHOP Vol.23<BR>
+</SPAN></FONT></B><B><SPAN style="font-size : 150%;">Shady Glimpse&#27;&quot;Surpreme Gift&#27;&quot;レコ発</SPAN></B><BR>
+<SPAN style="color : #ff0000;">出演自粛</SPAN></P>
+<HR>
+<P style="text-align : center;"><FONT size="+2"><B><A href="live20210514.htm">2021.05.14 新宿Wildside Tokyo</A></B><BR>
+</FONT><BR>
+<FONT color="#ffffff" size="+4" style="font-size : 310%;"><B><SPAN style="font-size : 60%;">eviL redruM Vol.23</SPAN></B></FONT><BR>
+<SPAN style="color : #ff0000;">出演自粛</SPAN></P>
+<HR>
+<P style="text-align : center;"><FONT size="+2"><B><A href="live20210429.htm">2021.04.29 東高円寺二万電圧<BR>
+<BR>
+</A>死神紫郎企画「救いのない音楽」</B><BR>
+</FONT><SPAN style="color : #ff0000;">出演自粛</SPAN></P>
+<HR>
+<P style="text-align : center;"><FONT size="+2"><B><A href="live20210411.htm">2021.04.11 新宿Wildside Tokyo</A></B></FONT><BR>
+<BR>
+<B><SPAN style="font-size : 120%;">METAL ON METAL CARNIVAL</SPAN><BR>
+<SPAN style="font-size : 120%;">3MAN SPECIAL</SPAN></B><BR>
+</P>
+<HR>
+<P style="text-align : center;"><FONT size="+2"><B><A href="live20210313.htm">2021.03.13 渋谷CYCLONE</A></B></FONT><BR>
+<BR>
+<B><SPAN style="font-size : 120%;"><SPAN style="font-size : 120%;">shibuya cyclone presents</SPAN><BR>
+<SPAN style="font-size : 120%;">&quot;Keep on rollin</SPAN></SPAN></B><SPAN style="font-size : 120%;">&quot;</SPAN><BR>
+</P>
+<HR>
+<p><SPAN style="color : #0088ff;"><FONT size="+2"><B><A href="live20210103.htm">2021.01.03 新宿Wildside Tokyo</A></B></FONT></SPAN><BR>
+<BR>
+<B><SPAN style="font-size : 120%;">新春HEAVYMETAL 初詣 GIG</SPAN></B></p>
+<HR>
+<P align="center"><FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2020</FONT>-</B></FONT><BR>
+</P>
+<HR>
+<P align="center"><B><FONT size="+2"><A href="live20201120.htm">2020.11.20 新宿Wildside Tokyo</A></FONT></B><BR>
+<BR>
+<SPAN style="font-size : 150%;
+	color : #ff0000;
+"><B><SPAN style="font-size : 80%;
+	color : #ffffff;
+">ROCK LIKE HELL Vol.2</SPAN></B></SPAN></P>
+<HR>
+<P align="center"><FONT size="+2">2020.11.14 目黒LIVE STASION</FONT><BR>
+<SPAN style="color : #ff0000;">公演中止</SPAN></P>
+<HR>
+<P align="center"><FONT size="+2"><B><A href="live20201107.htm">2020.11.07 新宿Wildside Tokyo</A></B></FONT><BR>
+<BR>
+<B><SPAN style="font-size : 120%;">轟音共鳴 Vol.265</SPAN><BR>
+<SPAN style="font-size : 120%;">GOOFY STYLE 2nd&amp;3rdアルバム発売記念イベント</SPAN></B></P>
+<HR>
+<P align="center"><FONT size="+2">2020.10.24 札幌<BR>
+</FONT><SPAN style="color : #ff0000;">公演中止</SPAN></P>
+<HR>
+<P align="center"><FONT size="+2"><B><A href="live202010101011.htm">2020.10.10・11 両国SUNRISE</A></B></FONT><BR>
+<BR>
+<B><SPAN style="font-size : 120%;">AWAKED and METAL BLITZRIEG persents</SPAN><BR>
+<SPAN style="font-size : 120%;">JURASSIC JADE 35th ANNIVERSARY 2DAYS GIG</SPAN></B><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+2">2020.09.26 横浜FAD</FONT><BR>
+<SPAN style="color : #ff0000;">公演中止</SPAN></P>
+<HR>
+<P align="center"><FONT size="+2">2020.09.05 新宿Wildside Tokyo<BR>
+</FONT><SPAN style="color : #ff0000;">公演中止</SPAN></P>
+<HR>
+<p><FONT size="+2">2020.08.13 熊谷Heaven's Rock VJ-1<BR>
+</FONT><SPAN style="color : #ff0000;">公演中止</SPAN></p>
+<HR>
+<p><FONT size="+2">2020.07.19 名古屋Club ZION</FONT><BR>
+<SPAN style="color : #ff0000;">公演中止</SPAN></p>
+<HR>
+<P align="center"><FONT size="+2">2020.06.27 福島C-Moon</FONT><BR>
+<SPAN style="color : #ff0000;">公演中止</SPAN></P>
+<HR>
+<P align="center">
+<FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2019</FONT>-</B></FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+2">2019.12.29 新宿Wildside Tokyo</FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+2"><B><A href="live20191206.htm">2019.12.06 初台DOORS</A></B></FONT><BR>
+<BR>
+<B><SPAN style="font-size : 120%;">HEAD PHONES PRESIDENT PRESENTS<BR>
+Connect Note</SPAN></B><BR>
+<FONT color="#0000ff" size="+4" style="font-size : 310%;"><B></B></FONT></P>
+<HR>
+<P align="center"><FONT size="+2">2019.11.16 渋谷CYCLONE</FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+2"><B><A href="live20191019.htm">2019.10.19 名古屋 Live Box UNLIMITS 大須</A></B><BR>
+</FONT><BR>
+<B><SPAN style="font-size : 120%;">STONE PRESENTS<BR>
+STONE COLD CRAZY 006</SPAN></B></P>
+<HR>
+<P align="center"><FONT size="+2">2019.09.28 渋谷CYCLONE</FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+2">2019.08.14 熊谷Heaven's Rock VJ-1</FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+2">2019.08.12 新宿Wildside Tokyo</FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+2"><B><A href="live20190608.htm">2019.06.08 高円寺HIGH</A></B></FONT><BR>
+<BR>
+<FONT size="+4" style="font-size : 310%;"><B><SPAN style="font-size : 80%;"><SPAN style="font-size : 60%;
+	color : #ffffff;
+">GOOFY STYLE and H.S.P Presents<BR>
+轟音共鳴Vol.264</SPAN></SPAN></B></FONT><BR>
+</P>
+<HR>
+<P align="center"><SPAN style="color : #0000ff;"><FONT size="+2"><B><A href="live20190601.htm">2019.06.01 西横浜EL PUENTE</A></B></FONT></SPAN><BR>
+<BR>
+<B><SPAN style="font-size : 120%;">Hisashi Nakamura Presents</SPAN><BR>
+<SPAN style="font-size : 120%;">&quot;NAKASANN NIGHT&quot;</SPAN></B></P>
+<HR>
+<P align="center"><FONT size="+2"><B><A href="live20190427.htm">2019.04.27 新宿Wildside Tokyo</A></B></FONT><BR>
+<BR>
+<B><SPAN style="font-size : 120%;
+	color : #ffffff;
+">EXTREME MAD THRASHERS DAY</SPAN></B><BR>
+</P>
+<HR>
+<P align="center"><BR>
+<FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2018</FONT>-</B></FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+2">2018.10.27 渋谷CYCLONE</FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+2"><A href="live20180922.htm"><B><SPAN style="color : #0088ff;">2018.09.22 名古屋 栄TIGHT ROPE</SPAN></B></A></FONT><BR>
+<FONT size="+4" style="font-size : 310%;"><SPAN style="color : #ffffff;"><SPAN style="font-size : 60%;">DEATHMETAL GIG vol.25</SPAN></SPAN></FONT><BR>
+</P>
+<HR>
+<P align="center"><SPAN style="color : #0088ff;"><FONT size="+2"><B><A href="live20180819.htm"><SPAN style="color : #0088ff;">2018.08.19 大阪アメ村CLAPPER</SPAN></A></B></FONT><BR>
+</SPAN></P>
+<HR>
+<P align="center"><B><SPAN style="color : #0088ff;"><FONT size="+2"><A href="live20180814.htm">2</A></FONT></SPAN></B><SPAN style="color : #0088ff;"><B><SPAN style="color : #0088ff;"><FONT size="+2"><A href="live20180814.htm">018.08.14 熊谷HEAVEN'S ROCK VJ-1</A></FONT></SPAN></B><BR>
+</SPAN><BR>
+<SPAN style="font-size : 150%;"><B><SPAN style="font-size : 80%;
+	color : #ffffff;
+">RISE ABAVE Vol.4</SPAN></B></SPAN></P>
+<HR>
+<P align="center"><A href="live20180520.htm"><B><FONT size="+2" color="#0088ff">2018.05.20</FONT><FONT color="#0088ff" size="+3" style="font-size : 200%;"> </FONT><FONT color="#0088ff" size="+2" style="font-size : 150%;">NUMAZU SpeakEZ<BR>
+</FONT></B></A><FONT size="-1" color="#0088ff"><BR>
+</FONT><SPAN style="color : #ffffff;"><FONT size="+2" style="font-size : 150%;"><B>Liberation Night vol.19</B></FONT></SPAN><BR>
+</P>
+<HR>
+<P align="center"><B><FONT size="+2"><A href="live20180113.htm"><SPAN style="color : #0088ff;">2018.01.13 西荻窪Pitbar</SPAN></A></FONT></B><BR>
+<BR>
+<FONT color="#6699cc"><B><SPAN style="color : #ffffff;"><FONT size="+2" style="font-size : 150%;">KODOMO <BR>
+Headbangers Ball</FONT></SPAN></B></FONT><BR>
+</P>
+<HR>
+<P align="center"><BR>
+<FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2017</FONT>-</B></FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+2" style="font-size : 150%;"><A href="live20171229.htm"><B>2017.12.29新宿WildSide Tokyo</B></A><BR>
+<B><BR>
+</B></FONT><FONT size="+2" style="font-size : 150%;" color="#0088ff"><FONT color="#0088ff"><B>TEAM HEAVY METAL presents<BR>
+YEAR END METAL FEVER 2017</B></FONT></FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+2" style="font-size : 150%;"><A href="live20171125.htm"><B>2017.11.25 仙台FLYINGSON</B></A><BR>
+<B><BR>
+</B></FONT><FONT size="+2" style="font-size : 150%;" color="#0088ff"><B>20 YEARS OF BLOODY TASTE</B></FONT><BR>
+</P>
+<HR>
+<P align="center"><A href="live20170915.htm"><B><FONT size="+2" style="font-size : 150%;">2017.09.15 浜松MESCALIN DRIVE</FONT></B></A><FONT size="+2" style="font-size : 150%;" color="#0080ff"><BR>
+<B><BR>
+PARADISE MIXER<BR>
+special 2017</B></FONT></P>
+<HR>
+<P align="center"><FONT size="+2" style="font-size : 150%;"><A href="live20170813.htm"><B>2017.08.13 熊谷Heaven's Rock VJ-1</B></A><BR>
+<B><BR>
+</B></FONT><FONT size="+2" style="font-size : 150%;" color="#0080ff"><B>HARD CORE CIRCUS vol.21</B></FONT><FONT size="+2" style="font-size : 150%;"><BR>
+<SPAN style="background-color: rgba(255, 255, 255, 0);"></SPAN></FONT></P>
+<HR>
+<P align="center"><FONT size="+2" style="font-size : 150%;"><A href="live20170722.htm"><B>2017.07.22 新宿WILDSIDE TOKYO</B></A><BR>
+<B><BR>
+</B></FONT><FONT size="+2" style="font-size : 150%;" color="#0080ff"><B>METAL BLITZKRIEG vol.6</B><BR>
+<B>～OPERATION:STROKE～</B></FONT><FONT size="+2" style="font-size : 150%;"><SPAN style="background-color: rgba(255, 255, 255, 0);"></SPAN></FONT><BR>
+</P>
+<HR>
+<P align="center"><b><FONT color="#ff0000" size="+2" style="font-size : 150%;"><A href="live20170610.htm">2017.06.10 西横浜EL PUENTE</A></FONT><FONT size="+2" color="#0080ff" style="font-size : 150%;"><br>
+                </FONT></b><BR>
+                <FONT size="+2" style="font-size : 150%;" color="#0080ff"><B>ROSEROSE presents<BR>
+                THE FAINT SCREAM vol.2</B></FONT><BR>
+</P>
+<HR>
+<P align="center"><B><FONT size="+2"><A href="live20170319.htm">2017.03.19 新宿LOFT</A></FONT><BR>
+</B><BR>
+<B><FONT size="+2" color="#0080ff" style="font-size : 150%;">KAPPUNK<BR>
+&quot;KAPPUNK IS DEAD&quot;</FONT></B><BR>
+</P>
+<HR>
+<P align="center"><B><FONT style="font-size : 150%;" size="+2" color="#ff0000"><A href="live20170204.htm">2017.02.04 西荻窪Pit bar</A></FONT></B><br>
+                <br>
+                <b><FONT size="+2" color="#0080ff">Sound Highkick Vol.4<br>
+                </FONT></b></P>
+<HR>
+<P align="center"><BR>
+<FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2016</FONT>-</B></FONT><BR>
+</P>
+<HR>
+<P align="center"><B><A href="live20161211.htm"><FONT style="font-size : 150%;" size="+2" color="#0066cc">2016.12.11 新宿Wild Side Tokyo</FONT></A></B></P>
+<P align="center">
+<B>
+<font size="+1" color="#0080ff">METAL BLITZRIGE Vol.4<BR>
+HELLMODEL</font></B></P>
+<HR>
+<P align="center"><FONT style="font-size : 150%;" size="+2" color="#0066cc"><B><A href="live20161203.htm">2016.12.03 つくば PARKDINER</A></B></FONT><br>
+<br>
+<b><font size="+1" color="#0080ff">SOUND STUDIO OZ 21st ANVERSARY DID</font></b><BR>
+</P>
+<HR>
+<P align="center"><B><FONT size="+2" style="font-size : 150%;" color="#0080ff"><A href="live201611105.htm">2016.10.05 いわきclub SONIC</A></FONT></B><BR>
+<BR>
+<B><FONT size="+1" color="#0080ff">club SONIC iwaki 15周年企画Vol.06<BR>
+「SONIC幻のこけら落とし振替公演」</FONT></B><SPAN style="background-color: rgba(255, 255, 255, 0);"></SPAN><BR>
+</P>
+<HR>
+<P align="center"><BR>
+<B><FONT size="+2" style="font-size : 150%;" color="#0080ff"><A href="live20161001.htm">2016.10.01 新宿WILD SIDE TOKYO</A></FONT></B><BR>
+<BR>
+<FONT face="ＭＳ Ｐゴシック, Osaka" color="#666666"><STRONG><FONT color="#0066cc" size="+2" style="font-size : 150%;">PORNOSTATE presents<BR>
+Emperor Declaration Vol.4</FONT></STRONG></FONT></P>
+<HR>
+<P align="center"><B><FONT size="+2" style="font-size : 150%;" color="#0080ff"><A href="live20160917.htm">2016.09.17 今池HUCK FINN 今池CLUB 3STAR</A></FONT></B><BR>
+<BR>
+<FONT face="ＭＳ Ｐゴシック, Osaka" color="#666666"><STRONG><FONT color="#0066cc" size="+2" style="font-size : 150%;">DAY OF RAGEFEST<BR>
+2016</FONT></STRONG></FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+2"><A href="live20160813.htm"><B>2016.08.13 熊谷HEAVEN'S ROCK VJ-1</B></A></FONT><BR>
+<BR>
+<FONT face="ＭＳ Ｐゴシック, Osaka" color="#666666"><STRONG><FONT color="#0066cc" size="+2" style="font-size : 150%;">RISE ABOVE<BR>
+X<BR>
+HARDCORE CIRCUS</FONT></STRONG></FONT><BR>
+</P>
+<HR>
+<DIV class="title_block" align="center"><FONT size="+2" style="font-size : 150%;" color="#ff0000"><B><A href="live20160723.htm">2016.07.23 立川BABEL</A></B></FONT><BR>
+              <BR>
+                <FONT face="ＭＳ Ｐゴシック, Osaka" color="#666666"><STRONG><FONT color="#0066cc" size="+2" style="font-size : 150%;">TACHIKAWA <BR>
+                METAL FEST 2016</FONT></STRONG></FONT><BR>
+  <BR>
+  <HR>
+  <FONT size="+2" style="font-size : 150%;" color="#ff0000"><B><A href="live20160612.htm">2016.06.12 吉祥寺CRESCENDO</A></B></FONT><BR>
+  <BR>
+  <FONT face="ＭＳ Ｐゴシック, Osaka" color="#0066cc"><STRONG><FONT size="+2" style="font-size : 150%;">鉄カ</FONT></STRONG></FONT><FONT face="ＭＳ Ｐゴシック, Osaka" color="#666666"><STRONG><FONT color="#0066cc" size="+2" style="font-size : 150%;">ブト2ndアルバム『KATANA』東京レコ発 <BR>
+「TOKYO SWORD KILL」</FONT></STRONG></FONT><BR>
+  <HR>
+  <FONT color="#0066cc"><A href="live20160504.htm"><FONT size="+2" style="font-size : 150%;" color="#0088ff"><B>2016.05.04日 LIVE HOUSE 本八幡ルート14</B></FONT></A></FONT> <BR>
+  <BR>
+  <FONT size="+1" color="#0066cc" style="font-size : 117%;"><B>
+              INZAI METAL CAMP</B></FONT><BR>
+  <BR>
+  <HR>
+  <FONT size="+2" style="font-size : 150%;" color="#ff0000"><A href="live20160306.htm"><B>2016.03.06 吉祥寺CRESCENDO</B></A></FONT><BR>
+              <BR>
+              <FONT size="+1" color="#0066cc"><B>SOUNDWITCH HELL BOP SHOW FINAL<BR>
+  -SEVEN DEADLY SINS-</B></FONT><BR>
+  <HR>
+  <B><FONT size="+2" color="#ff0000"><A href="live20160207.htm">2016.02.07 立川BABEL</A><BR>
+</FONT></B><BR>
+<FONT color="#0066cc" size="+2"><B><SPAN></SPAN></B></FONT><FONT size="+1" color="#0066cc"><B>立川直登塾<BR>
+「我思う故に我あり　第三十一章」<BR>
+BIRUSHANAH”魔境-MAKYO-”release party</B></FONT><BR>
+  <HR>
+  <BR>
+  <FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2015</FONT>-</B></FONT><BR>
+  <BR>
+  <HR>
+  <BR>
+  <FONT size="+2"><A href="live20151223.htm"><B>2015.12.23 渋谷CYCLONE</B></A></FONT><BR>
+  <BR>
+              <FONT color="#0066cc" size="+2"><B><SPAN>CASBAH presents<BR>
+              &quot;Revolt Against 2015&quot;</SPAN></B></FONT><BR>
+  <HR>
+  <B><FONT size="+2"><A href="live20151212.htm">2015.12.12 つくばPARKDINER</A></FONT></B><BR>
+  <BR>
+  <FONT color="#0066cc" size="+2"><B><SPAN>SOUND STUDIO OZ 20th ANNIVERSARY GIG<BR>
+              OZ FEST 2015<BR>
+  2days<BR>
+  </SPAN></B></FONT>
+  <HR>
+  <FONT size="+2"><B><A href="live20151129.htm">2015.11.29 渋谷CYCLONE<BR>
+  </A></B></FONT><BR>
+  <FONT color="#0066cc" size="+2"><B><SPAN>END ALL presents<BR>
+              Be All,End All vol.6</SPAN></B></FONT><BR>
+  <HR>
+  <FONT size="+2"><B><A href="live20150926.htm">2015.09.26 今池CLUB 3STAR</A></B></FONT><B><FONT size="+2" color="#ff0000"><BR>
+              </FONT></B><BR>
+              <FONT color="#0066cc" size="+2"><B><SPAN>Swiping Crush Ball Ver.2.0 Vol.4</SPAN></B></FONT><BR>
+  <BR>
+  <HR>
+  <FONT size="+2"><B><A href="live20150815.htm">2015.08.15 熊谷Heaven's Rock VJ-1</A></B></FONT><BR>
+  <BR>
+              <FONT color="#0066cc" size="+2"><B><span>RISE ABOVE vol.2 Day2<BR>
+  JURASSIC JADE PARK<BR>
+  <BR>
+  </span></B></FONT>
+  <HR>
+  <FONT size="+2"><B><A href="live20150725.htm">2015.07.25 立川BABEL</A></B></FONT><BR>
+<BR>
+              <FONT color="#0066cc" size="+2"><B><SPAN>BABEL presents TACHIKAWA METAL FEST 2015<BR>
+              </SPAN></B></FONT><FONT size="+1" color="#0066cc"><B>〜Phantom Excaliver 1st Album &quot;鋼鉄の誓い&quot; レコ発 〜</B></FONT><BR>
+</DIV>
+<HR>
+<P align="center"><FONT size="+2"><B><A href="live20150712.htm">2015.07.12 新宿WILD SIDE TOKYO</A><BR>
+</B></FONT><BR>
+<FONT color="#0066cc" size="+2"><B><SPAN>MOZ8 presents</SPAN></B></FONT><BR>
+<FONT color="#0066cc" size="+2"><B><span>ORANGE BOUNDARY</span></B></FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+2"><A href="live20150524.htm"><B>2015.05.24 下北沢SHELTER</B></A></FONT><BR>
+<BR>
+<FONT color="#0066cc" size="+2"><B><SPAN>マドンナたちのけもの道</SPAN></B></FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+2"><B><A href="live20150425.htm">2015.04.25 いわきclub SONIC</A></B></FONT><BR>
+<BR>
+          <FONT color="#0066cc" size="+2"><B><SPAN>Colony of Meditation&amp;NAMAZ&amp;To overflow evidence presents</SPAN><BR>
+          <SPAN>"belief vol.1"</SPAN><BR>
+          <SPAN>～JURASSIC JADE"帰天"release show～</SPAN></B></FONT><B><BR>
+          </B></P>
+<HR>
+<P align="center"><BR>
+<B><FONT size="+2"><A href="live20150411.htm">2015.04.11 新宿WildSide TOKYO</A></FONT></B><BR>
+<BR>
+<B><FONT size="+2" color="#0066cc">WildSide Tokyo 6th Anniversary <BR>
+CRAZY ROCK CARNIVAL 2015<BR>
+～兀突骨3rd Alubum「因果応報」Release Party～<BR>
+2Days</FONT></B><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+2"><A href="live20150307.htm"><B>2015.03.7 難波BEARS</B></A></FONT><BR>
+<BR>
+<B><FONT size="+2" color="#0066cc">GRAVE NEW WORLD Vol.23</FONT></B><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+2"><A href="live20150112.htm"><B>2015.01.12 川崎CLUB CITTA</B>'</A></FONT><BR>
+<BR>
+<B><FONT size="+2" color="#0066cc">VIOLENT ATTITUDE<BR>
+-DOOM///RECHARGED-</FONT></B><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2014</FONT>-</B></FONT></P>
+<HR>
+<P align="center"><B><FONT size="+2" color="#0066cc"><A href="live20141207.htm">2014.12.07 つくばPARK DINER</A></FONT></B><BR>
+<BR>
+<B><FONT size="+2" color="#0066cc">SOUND STUDIO OZ 19th ANNIVERSARY GIG<br>
+OZ FEST 2014</FONT></B></P>
+<HR>
+<P align="center"><A href="live20141102.htm"><FONT size="+2"><B>2014.11.02 新宿Wildside Tokyo</B></FONT></A><BR>
+<BR>
+<B><FONT size="+1" color="#0066cc">JURASSIC JADE PRESENTS</FONT><FONT size="+2" color="#0066cc"><BR>
+BEHIND YOKE SYSTEMS 18</FONT></B><BR>
+<B><FONT size="+2" color="#0066cc">「帰天」リリース記念</FONT></B></P>
+<HR>
+<P align="center"><B><FONT size="+2" color="#ff0000"><A href="live20141025.htm">2014.10.25 今池HUCK FINN</A></FONT></B><BR>
+<BR>
+<B><FONT size="+2" color="#0066cc">DEEP CONNECT vol.100(FINAL)</FONT></B></P>
+<HR>
+<P align="center"><B><FONT size="+2"><A href="live20141011.htm">2014.10.11 熊谷HEAVEN'S ROCK VJ-1</A></FONT></B><BR>
+<BR>
+<B><FONT color="#0066cc" size="+2">JURASSIC JADE &amp; VELVET WORM ダブルレコ発</FONT></B><BR>
+</P>
+<HR>
+<P align="center"><B><FONT size="+2"><A href="live20140912.htm">2014.09.12 川崎CLUB CITTA</A></FONT></B><BR>
+<BR>
+<B><FONT color="#0066cc" size="+2">YOKO FEST THE FINAL<BR>
+ヨコちゃん逝った</FONT><FONT color="#0066cc" size="+1">ヨ</FONT><FONT color="#0066cc" size="+2">～全員集合!!</FONT></B><BR>
+</P>
+<HR>
+<P align="center"><B><FONT size="+2"><A href="live20140524.htm">2014.05.24 札幌DUCE</A></FONT></B><BR>
+<BR>
+<B><FONT color="#0066cc" size="+2">OVER KILLVol.102</FONT></B><BR>
+</P>
+<HR>
+<P align="center"><B><FONT size="+2"><A href="live20140419.htm">2014.04.19 つくばPARK DINER</A></FONT></B><BR>
+<BR>
+<B><FONT size="+2" color="#0066cc">Boozer Meeting at PARKDINER Vol.2</FONT></B><BR>
+</P>
+<HR>
+<P align="center"><A href="live20140405.htm"><B><FONT size="+2">2014.04.05 新宿Wildside Tokyo</FONT></B></A><BR>
+<BR>
+<FONT color="#0066cc" size="+1"><B>taichi PRESENTS<BR>
+</B></FONT><FONT color="#0066cc" size="+2"><B>ASTROISM vol.</B></FONT><FONT color="#0066cc" size="+1"><B>1</B></FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT color="#0066cc" size="+2"><B><SPAN style="-webkit-text-size-adjust: auto; background-color: rgba(255, 255, 255, 0);"><SPAN style="font-size:10.0pt" lang="EN-US"></SPAN></SPAN></B></FONT><FONT color="#0066cc"><B><FONT color="#0088ff" size="+2"><A href="live20140215.htm">2014.02.15 江坂MUSE HALL</A></FONT></B><BR>
+<BR>
+<B><FONT color="#0088ff" size="+1">TRUE THRASH FES 2014</FONT></B><BR>
+</FONT></P>
+<HR>
+<P align="center"><BR>
+<FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2013</FONT>-</B></FONT></P>
+<HR>
+<P align="center"><B><SPAN style="-webkit-text-size-adjust: auto; background-color: rgba(255, 255, 255, 0);"><FONT color="#0066cc" size="+2" face="ＭＳ Ｐ明朝"><A href="live20131229.htm">2013.12.29 新宿MARZ</A></FONT><FONT color="#0066cc"><BR>
+<BR>
+HEAD PHONES PRESIDENTpresents<BR>
+</FONT>&nbsp;<FONT color="#0066cc" size="+1">HEAD PHONES PRESIDET X JURASSIC JADE<BR>
+2マン公演</FONT><BR>
+</SPAN></B></P>
+<HR size="5">
+<P align="center"><B><SPAN style="-webkit-text-size-adjust: auto; background-color: rgba(255, 255, 255, 0);"><FONT color="#0066cc" size="+2" face="ＭＳ 明朝"><A href="live20131221.htm">2013.12.21 名古屋TAURUS</A></FONT><FONT color="#0066cc"><BR>
+<BR>
+VIO SYSTEM DIVIDE presents<BR>
+</FONT>&nbsp;<FONT color="#0066cc" size="+1">Swiping Crush Ball</FONT> <FONT color="#0066cc">Ver.2.0 Vol.1</FONT><BR>
+<SPAN class="Apple-style-span" style="color: rgb(51, 51, 51); font-family: 'lucida grande', tahoma, verdana, arial, 'hiragino kaku gothic pro', meiryo, 'ms pgothic', sans-serif; font-size: 13px; line-height: 17px; "></SPAN><BR>
+</SPAN></B></P>
+<HR>
+<P align="center"><B><FONT size="+2" face="ＭＳ Ｐ明朝"><A href="live20131123.htm">2013.11.23目黒鹿鳴館</A></FONT></B><BR>
+<B><SPAN style="-webkit-text-size-adjust: auto; background-color: rgba(255, 255, 255, 0);"><FONT color="#0066cc"><BR>
+CASBAH presents</FONT><BR>
+<FONT color="#0066cc" size="+1">Revolt Against～2013</FONT></SPAN></B><BR>
+</P>
+<HR>
+<P align="center"><B><SPAN style="-webkit-text-size-adjust: auto; background-color: rgba(255, 255, 255, 0);"><FONT face="ＭＳ Ｐ明朝"><FONT color="#0066cc" size="+2"><A href="live20131116.htm">2013.11.16つくばPARKDINER</A></FONT></FONT><BR>
+<FONT color="#0066cc"><BR>
+</FONT><FONT color="#0066cc" face="ＭＳ Ｐ明朝">STUDIO OZ presents<BR>
+</FONT><FONT color="#0066cc" face="ＭＳ Ｐ明朝" size="+1" style="font-size : 117%;">OZ FEST 2013</FONT></SPAN></B><BR>
+</P>
+<HR>
+<P align="center"><SPAN style="-webkit-text-size-adjust: auto; background-color: rgba(255, 255, 255, 0);"><B><FONT face="ＭＳ Ｐ明朝" color="#0066cc"><A href="live20130915.htm"><FONT size="+2" color="#0066cc">2013.09.15高円寺HIGH</FONT></A></FONT><BR>
+<FONT color="#0066cc"><BR>
+BxTxHx NIGHTVol.2</FONT>&nbsp;</B></SPAN><BR>
+</P>
+<HR>
+<P align="center"><B><SPAN style="-webkit-text-size-adjust: auto; background-color: rgba(255, 255, 255, 0);"><FONT face="ＭＳ Ｐ明朝"><FONT size="+2" color="#ff0000"><A href="live20130908.htm">2013.09.08 心斎橋Club ALIVE</A></FONT></FONT><BR>
+<BR>
+<FONT color="#0066cc">413TRACKS PRESENTS<BR>
+&quot;EVIL A LIVE Vol.3&quot;</FONT></SPAN></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><FONT face="ＭＳ Ｐ明朝"><B><FONT size="+2"><A href="live20130814.htm">2013.08.14 熊谷HEAVEN'S ROCK VJ-1</A></FONT></B></FONT><B><FONT color="#ff0000" face="ＭＳ Ｐ明朝" size="+2"><SPAN><BR>
+</SPAN></FONT></B><BR>
+<B><FONT size="+1" color="#0066cc">HARD CORE CIRCUS vol.16</FONT></B></P>
+<HR>
+<P align="center"><FONT face="ＭＳ Ｐ明朝"><B><FONT size="+2"><A href="live20130809.htm">2013.08.09 池袋手刀</A></FONT></B></FONT><BR>
+<BR>
+<B><FONT size="+1" color="#0066cc">aozoa presents<BR>
+roafaor#1</FONT></B></P>
+<HR>
+<P align="center"><B><A href="live20130714.htm"><FONT size="+2" face="ＭＳ Ｐ明朝">2013.07.14 倉敷REDBOX</FONT></A></B><BR>
+<BR>
+<B><FONT size="+1" color="#0066cc">BLACK NIGHT</FONT></B></P>
+<HR>
+<P align="center"><B><A href="live20130713.htm"><FONT size="+2" face="ＭＳ Ｐ明朝">2013.07.13 広島CHINATOWN</FONT></A></B><BR>
+<BR>
+<FONT color="#0066cc"> BAKED BOMB,BLIND HATE and NEUROTICOS PRESENTS</FONT><BR>
+    <FONT color="#0066cc" size="+1"><B>HIROSHIMA DEATH FEST 2013</B></FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT color="#0066cc"><b><font color="#ff0000" face="ＭＳ Ｐ明朝" size="+2"><FONT color="#0066cc"><span><A href="live20130525.htm">2013.05.25 東高円寺二万電圧</A></span></FONT></font></b></FONT><BR>
+    <BR>
+<FONT color="#0066cc">オウガ寺内 and 二万電圧共同チャリティー企画</FONT><BR>
+    <FONT color="#0066cc"><B>「ROAD TO Hiroko Matsusita FINAL PHOTO BOOK」<BR>
+    ～松下弘子最終写真集への道～</B></FONT><BR>
+</P>
+<HR>
+<P align="center"><B><FONT size="+2" color="#0066cc" face="ＭＳ Ｐ明朝"><SPAN><A href="live20130420.htm">2013.04.20　つくばPARKDINER</A></SPAN></FONT></B><BR>
+<b><span style="font-size:10.0pt" lang="EN-US"></span></b><br>
+<FONT color="#0066cc" size="+1"><B>soundspace PARKDINER 10th Anniversary</B></FONT><BR>
+</P>
+<HR>
+<P align="center"><B><A href="live20130209.htm"><FONT size="+2" color="#0066cc" face="ＭＳ Ｐ明朝"><FONT size="+2" color="#0066cc" face="ＭＳ Ｐ明朝"><span>2013.02.09　江坂MUSE HALL</span></FONT></FONT></A></B><BR>
+<BR>
+<b><span style="font-size:10.0pt" lang="EN-US"><font color="#0066cc" face="ＭＳ Ｐ明朝">TTF Ⅴ　2013</font></span></b><BR>
+</P>
+<HR>
+<P align="center"><B><FONT size="+2" color="#ff0000" face="ＭＳ Ｐ明朝"><span><A href="live20130106.htm">2013.01.06 名古屋ell.FITS ALL</A></span></FONT></B><BR>
+<BR>
+<b><span style="font-size:10.0pt" lang="EN-US"><font color="#0066cc" face="ＭＳ Ｐ明朝">LAND OF CONFUSION Vol.5</font></span></b><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2012</FONT>-</B></FONT><BR>
+</P>
+<HR>
+<P align="center"><B><FONT size="+2" color="#ff0000" face="ＭＳ Ｐ明朝"><span><A href="live20121229.htm">2012.12.29 新宿Wildside Tokyo</A></span></FONT></B><BR>
+
+<H1 class="mi" align="center"><FONT color="#0066cc"><B><FONT size="+0">TEAM HEAVY METAL presents<BR>
+YEAR END METAL FEVER 2012</FONT></B></FONT></H1>
+<HR>
+<P align="center"><B><FONT size="+2" color="#ff0000" face="ＭＳ Ｐ明朝"><span><A href="live20121208.htm">2012.12.08 つくばPARKDINER</A></span></FONT></B><BR>
+<BR>
+<b><span style="font-size:10.0pt" lang="EN-US"><font color="#0066cc" face="ＭＳ Ｐ明朝">STUDIO OZ presents<br>
+OZ FEST 2012</font></span></b><BR>
+</P>
+<HR>
+<P align="center"><B><FONT size="+2" color="#ff0000" face="ＭＳ Ｐ明朝"><span></span></FONT></B><FONT face="ＭＳ Ｐゴシック" size="4" color="#0066cc"><FONT face="ＭＳ Ｐ明朝" size="5" color="#0066cc"><FONT face="ＭＳ Ｐ明朝" size="5" color="#0066cc"><B><A href="live20121118.htm">2012.11.18 今池HUCK FINN</A></B></FONT></FONT><FONT face="ＭＳ Ｐゴシック" size="4" color="#0066cc"><B><BR>
+<BR>
+Ｇａｔｈｅｒｉｎｇ　ｏｆ　Ｔｒａｉｔｏｒ　Ｖｏｌ．６</B></FONT></FONT><BR>
+<span><B><FONT color="#0066cc">『DEFYレコ発パーティ！』 </FONT></B></span><BR>
+</P>
+<HR>
+<P align="center"><B><FONT size="+2" color="#ff0000" face="ＭＳ Ｐ明朝"><span><A href="live20121007.htm">2012.10.07 弘前亀ハウス</A><BR>
+</span></FONT></B><FONT face="ＭＳ Ｐゴシック, Osaka" size="4" color="#0066cc"><B><BR>
+［Venus Saves Special］</B></FONT><BR>
+<FONT color="#0066cc"><B><span>東日本大震災復興支援live</span><br>
+<span>～3.11を風化させるな vol.3～ </span></B></FONT><BR>
+</P>
+<HR>
+<P align="center"><B><FONT size="+2" face="ＭＳ 明朝"><A href="live20120922.htm">2012.09.22 名古屋CLUB DIAMOND HALL</A></FONT></B><BR>
+<BR>
+<FONT face="ＭＳ Ｐゴシック, Osaka" size="4" color="#0066cc"><B>［Venus Saves Special］</B></FONT></P>
+<HR>
+<P align="center"><FONT size="+1" face="ＭＳ Ｐ明朝"><FONT size="+2" face="ＭＳ Ｐ明朝"><B><A href="live20120826.htm">2012.08.26　いわき三崎公園・野外音楽堂</A></B></FONT></FONT><BR>
+<BR>
+<FONT face="ＭＳ Ｐゴシック, Osaka" size="4" color="#0066cc"><B>「ONA
+        FES 2012」</B></FONT></P>
+<HR>
+<P align="center"><FONT size="+2" face="ＭＳ Ｐ明朝"><FONT size="+2" face="ＭＳ Ｐ明朝"><B><A href="live20120819.htm">2012.08.19　早稲田ZONE-B</A></B></FONT></FONT><BR>
+<BR>
+<FONT color="#0066cc"><B>ADRENALINE EXPLOSION Vol.1<BR>
+GOUMレコ発LIVE</B></FONT></P>
+<HR>
+<P align="center"><B><A href="live20120623.htm"><FONT size="+2" color="#0066cc" face="ＭＳ Ｐ明朝">2012.06.23　吉祥寺 CRESCENDO</FONT><FONT size="+4" color="#ff0000" face="ＭＳ Ｐ明朝"><span style="font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:&quot;ＭＳ Ｐ明朝&quot;;mso-hansi-font-family:Century"><span lang="EN-US"></span></span></FONT></A></B><BR>
+<B><FONT color="#0066cc" size="+1"><BR>
+</FONT><FONT color="#0066cc">Threshing Plessure Night Vol.3</FONT></B><BR>
+</P>
+<HR>
+<P align="center"><B><FONT size="+2" color="#ff0000" face="ＭＳ Ｐ明朝"><A href="live20120513.htm">2012.05.13　つくば PARK DINER</A></FONT></B><BR>
+<BR>
+<font size="+1"><b><font color="#ffffff"><font color="#ff0000"><FONT color="#0066cc" size="-1">Neuse Records <span style="font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;ＭＳ Ｐ明朝&quot;;mso-hansi-font-family:Century" lang="EN-US">presents</span></FONT></font></font></b></font><B><FONT color="#0066cc" size="+1"><BR>
+Fc Five Last Tour</FONT></B><BR>
+</P>
+<HR>
+<P align="center"><B><FONT size="+2" color="#ff0000" face="ＭＳ Ｐ明朝"><A href="live20120428.htm">2012.04.28　下北沢 CLUB251</A><BR>
+<FONT color="#0066cc" size="+1"><BR>
+DISTURB SITE vol.20</FONT><BR>
+<FONT color="#0066cc" size="-1">「SKATETHRASH HEAVEN」<BR>
+RELEASE GIG in TOKYO</FONT><BR>
+</FONT></B></P>
+<HR>
+<P align="center"><B><FONT size="+2" color="#0066cc" face="ＭＳ Ｐ明朝"><A href="live20120218.htm">2012.02.18　江坂　MUSE HALL</A></FONT></B> <br>
+<br>
+<B><FONT color="#0066cc" size="+1">TTF(TRUE THRASH FEST) 2012 <br>
+'DAY 1' </FONT></B><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2011</FONT>-</B></FONT><BR>
+</P>
+<HR>
+<P align="center"><B><FONT size="+2" face="ＭＳ Ｐ明朝"><A href="live20111218.htm">2011.12.18 つくばPARK DINER</A></FONT><FONT color="#ff0000" size="+2"><BR>
+<FONT color="#0066cc"><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></FONT></FONT></B>
+
+<P class="MsoNormal" align="center"><B><span lang=EN-US style='font-size:10.0pt'><FONT color="#0066cc" face="ＭＳ Ｐ明朝">STUDIO OZ presents<BR>
+OZ FEST 2011</FONT></span><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></B></P>
+<HR>
+<P align="center"><B><FONT size="+2" face="ＭＳ Ｐ明朝"><A href="live20111211.htm">2011.12.11 いわきCLUB SONIC</A></FONT></B></P>
+<P align="center"><B><FONT color="#ff0000" size="+2"><FONT color="#0066cc"><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></FONT></FONT></B>
+<P class="MsoNormal" align="center"><b><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc">NAMAZ presents<BR>
+「 UNDER THE NEIGHBOR vol.26 」</FONT></span></b></P>
+<HR>
+<P align="center"><A href="live20111103.htm"><FONT size="+2" face="ＭＳ Ｐ明朝"><FONT size="+2" face="ＭＳ Ｐ明朝"><B>2011.11.03 新宿ANTIKNOC</B></FONT></FONT></A><FONT size="+1"><B><FONT size="+2"><A href="live20111103.htm"><FONT size="+2" face="ＭＳ 明朝">K<BR>
+</FONT></A></FONT></B></FONT><B><FONT color="#ff0000" size="+2"><BR>
+<FONT color="#0066cc"><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></FONT></FONT><FONT color="#0066cc"><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;
+font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>「<span lang=EN-US>The blood
+of the Far EAST vol.8」</span></span></FONT></B><BR>
+</P>
+<HR>
+<P align="center"><B><A href="live20111023.htm"><FONT color="#0066cc" size="+2" face="ＭＳ Ｐ明朝">2011.10.23 札幌MOLE</FONT><FONT color="#ff0000" size="+2"></FONT></A><FONT color="#ff0000" size="+2"><BR>
+<BR>
+<FONT color="#0066cc"><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></FONT></FONT><FONT color="#0066cc">&quot;KISS ME KILL ME&quot; <BR>
+CHAPTER THREE <BR>
+-SAPPORO BURNING-</FONT></B><BR>
+</P>
+<HR>
+<P align="center"><B><FONT color="#0066cc" size="+2" face="ＭＳ Ｐ明朝"><A href="live20110917.htm">2011.09.17 南柏DRUNKARD'S STADIUM</A></FONT><FONT color="#ff0000" size="+2"><BR>
+<BR>
+<FONT color="#0066cc"><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>INCLUSIVE HAEDCORE PRESENTS</span></FONT><BR>
+</FONT></B><FONT color="#0066cc"><b><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>KEEP ON SMILING 2011</span></b></FONT><BR>
+</P>
+<HR>
+<P align="center"><B><FONT color="#ff0000" size="+2" face="ＭＳ Ｐ明朝"><A href="live20110903.htm">2011.09.03 新大久保EARTHDOM</A></FONT></B><BR>
+<BR>
+<FONT color="#0066cc"><b><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>THE MASTER OF
+DARKNESS #2</span></b></FONT><BR>
+</P>
+<HR>
+<P align="center"><B><FONT color="#0066cc" size="+2" face="ＭＳ Ｐ明朝"><A href="live20110730.htm">2011.07.30 仙台FLYING STUDIO</A></FONT></B><BR>
+<BR>
+<B><FONT color="#0066cc">TASTE </FONT></B><FONT color="#0066cc"><B><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝"'>presents</span></B></FONT><BR>
+<b><FONT color="#0066cc">DEATH OF BRUTALITY vol.21</FONT><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:12.0pt;
+font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;mso-bidi-font-family:"Times New Roman";
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;
+mso-bidi-language:AR-SA'></span></b><BR>
+</P>
+<HR>
+<P align="center"><B><FONT color="#0066cc" face="ＭＳ Ｐ明朝" size="+2"><A href="live20110710.htm">2011.07.10 名古屋CLUB DIAMOND HALL</A></FONT><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></B><BR>
+<BR>
+<B><FONT color="#0066cc">[HOUSE OF NOISE Vol.16 <BR>
+～B.F.M. 10 years Special Night ～]</FONT></B><BR>
+</P>
+<HR>
+<P align="center"><A href="live20110617.htm"><B><FONT color="#0066cc" face="ＭＳ Ｐ明朝" size="+2">2011.06.17 渋谷club asia</FONT></B></A><BR>
+<BR>
+<FONT color="#0066cc"><B><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝"'>myspace presents</span><BR>
+<span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝"'>CONECT NOTE</span></B></FONT></P>
+<HR>
+<P align="center"><FONT size="+2" face="ＭＳ Ｐ明朝"><FONT size="+2" face="ＭＳ Ｐ明朝"><B><A href="live20110521.htm">2011.05.21 新宿URGE</A></B></FONT></FONT><BR>
+<BR>
+<B><FONT color="#0066cc">穴虎69</FONT></B><FONT size="+1"><B><FONT color="#0066cc" size="+1"> presents</FONT></B></FONT><BR>
+<b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;
+font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span lang=EN-US><FONT color="#0066cc" size="+1">Full Blast 侍 其ノ十六</FONT></span></span></b><BR>
+</P>
+<HR>
+<P align="center"><B><A href="live20110206.htm"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2011.02.06<FONT color="#0066cc" size="+2"><span
+lang=EN-US> 高松RIZIN</span></FONT></FONT><FONT color="#ff0000" size="+1"><span
+lang=EN-US><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></span></FONT></span></A></B><BR>
+</P>
+<P class="MsoNormal" align="center"><b><FONT color="#0066cc"><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>VISIONS110206
+presents </span><BR>
+<span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>JURASSIC JADE </span><BR>
+<span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>NEW ALBUM「AKATHISIA」&amp;25周年記念ヒストリーDVD「懺悔の赤」リリース記念ツアー</span></FONT></b><BR>
+</P>
+<HR>
+<P align="center"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0080ff" size="+2"><A href="live20110205.htm">2011.02.05<FONT color="#0080ff" size="+2"><span
+lang=EN-US> 徳島club GRINDHOUSE</span></FONT></A></FONT></span></b><BR>
+<BR>
+<FONT color="#0066cc"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b></FONT><B><FONT color="#0066cc">～GRINDHOUSE SHOW～</FONT></B><BR>
+</P>
+<HR>
+<P align="center"> <A href="live20110108.htm"><FONT size="+2" face="ＭＳ Ｐ明朝"><FONT size="+2" face="ＭＳ Ｐ明朝"><B>2011.01.08 高円寺HIGH</B></FONT></FONT><FONT size="+2"><B><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></B><BR>
+</FONT></A><BR>
+<FONT color="#0066cc" size="+1"><B>B.T.H. NIGHT<BR>
+～JURASSIC JADE 25th Anniversary</B></FONT><FONT color="#0066cc"><B><BR>
+～B.T.H. RECORDS 5th Anniversary</B></FONT><BR>
+</P>
+<HR>
+<HR>
+<P align="center"><FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2010</FONT>-</B></FONT><BR>
+</P>
+<HR>
+<CENTER>
+<HR>
+<BR>
+<B><A href="live20101212.htm"><FONT color="#0066cc" size="+2" face="ＭＳ 明朝">2010.12.12 新代田FEVER</FONT></A></B><BR>
+<BR>
+<FONT color="#0066cc"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>第二十三回 平成ラリー塾年末スペシャル！<span lang=EN-US></span></span></b></FONT>
+<p class=MsoNormal style='margin-right:-7.5gd'><FONT color="#0066cc"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>“<span
+lang=EN-US>GARLICBOYS 25周年記念＆平成ラリー塾 5周年記念”<BR>
+「男の旅はいつまでも続きます（東京鋼鉄篇）<BR>
+<BR>
+</span></span></b></FONT></p>
+<HR>
+<BR>
+<FONT color="#0066cc" face="ＭＳ 明朝"><B><A href="live20101204.htm"><FONT size="+2">2010.12.04</FONT><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT size="+2"><span
+lang=EN-US> つくばパークダイナー</span></FONT></span></A></B><BR>
+</FONT><BR>
+<FONT size="+1" color="#0066cc"><B>SOUND STUDIO OZ 15thANNIVERSARY PARTY<BR>
+「OZ FEST 2010」</B></FONT><BR>
+<BR>
+<HR>
+<BR>
+<BR>
+<b><A href="live20101106.htm"><FONT color="#0066cc" size="+2" face="ＭＳ Ｐ明朝">2010.11.06</FONT><FONT color="#0066cc" size="+2"> </FONT><FONT color="#0066cc" size="+3" face="ＭＳ Ｐ明朝"></FONT><FONT color="#0066cc" size="+2" face="ＭＳ Ｐ明朝">札幌CLUB COUNTER ACTION</FONT><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></A></b><BR>
+<BR>
+<p class=MsoNormal style='margin-right:-7.5gd'><FONT color="#0066cc" size="-1"><B><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'>DEATH WORM Presents『パワーボム第２弾』</span><BR>
+<span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century;mso-bidi-font-family:"Times New Roman";
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;
+mso-bidi-language:AR-SA'>～<span lang=EN-US>JURASSIC JADE結成25周年&amp;NEW ALBUM「AKATHISIA」発売記念札幌公演～</span></span></B></FONT></p>
+<BR>
+<HR>
+<BR>
+<A href="live20101024.htm"><FONT face="ＭＳ Ｐ明朝"><B><FONT size="+1"><FONT size="+2">2010.10.24 浜松MESCALIN DRIVE</FONT></FONT></B></FONT></A><BR>
+<P><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#ff0000" size="+1"><span
+lang=EN-US></span></FONT></span><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><b><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0066cc">MESCALIN 鋼鉄 RIOT!</FONT></span></b><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span><BR>
+</P>
+<HR>
+<P><BR>
+<B><FONT size="+2" face="ＭＳ 明朝"><A href="live20101023.htm">2010.10.23 岐阜BRAVO</A></FONT></B><BR>
+<BR>
+<b><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0066cc">JUNKY WALTZ Presents<BR>
+[HIGH-GAIN MADHOUSE 13]</FONT></span></b><BR>
+<b><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0066cc">JURASSIC JADE &amp; Los Child W Release Party！</FONT></span></b><BR>
+<BR>
+</P>
+<HR>
+<BR>
+<A href="live20100918.htm"><FONT size="+2" color="#0066cc"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT size="+2"><span
+lang=EN-US>2010.09.18</span></FONT><FONT size="+3"><span
+lang=EN-US></span></FONT></span></b></FONT><FONT size="+1" color="#0066cc"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT size="+2"><span
+lang=EN-US> 仙台PARKSQUARE</span></FONT></span></b></FONT></A><BR>
+<BR>
+<b><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0066cc">TASTE Presents<BR>
+『DEATH OF BRUTALITY vol.19』</FONT></span></b><BR>
+<BR>
+<HR>
+<BR>
+<b><A href="live20100912.htm"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2010.09.12<FONT color="#0066cc" size="+1"><span
+lang=EN-US></span></FONT></FONT></span><FONT size="+1"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+3"><FONT color="#0066cc" size="+2"><span
+lang=EN-US> </span></FONT></FONT></span></FONT><FONT size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+4"><FONT color="#0066cc" size="+3"><span
+lang=EN-US></span></FONT></FONT></span></FONT><FONT size="+1"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+3"><FONT color="#0066cc" size="+2"><span
+lang=EN-US>京都FANJ</span></FONT></FONT></span></FONT></A></b><BR>
+<BR>
+<b><FONT color="#0066cc"><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'>&quot;UnderWOЯLD #零&quot;@Free Style Hall
+&quot;FANJ Kyoto&quot;</span></FONT></b>
+
+<BR>
+<BR>
+<HR>
+<BR>
+<p class=MsoNormal style='margin-right:-7.5gd'><A href="live20100911.htm"><FONT size="+2" color="#0066cc"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT size="+2">2010.09.11</FONT></span></b></FONT><FONT size="+1" color="#0066cc"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT size="+2"><span
+lang=EN-US> 心斎橋FANJ</span></FONT></span></b></FONT></A><BR>
+<BR>
+<FONT color="#0066cc"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>鋼黙示録　第２５章　<span
+lang=EN-US>feat.&quot;X-FACTOR&quot;</span></span></b></FONT>
+
+
+<p class=MsoNormal style='margin-right:-7.5gd'><FONT color="#0066cc"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>～<span
+lang=EN-US>&quot;JURASSIC JADE&quot; 25th Anniversary &amp; New release Party～</span></span></b></FONT><BR>
+</p>
+<HR>
+<BR>
+<FONT size="+1"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#ff0000" size="+2"><A href="live20100821.htm">2010.08.21<span
+lang=EN-US> 盛岡Club Change</span></A><span
+lang=EN-US><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></span></FONT></span></b></FONT><BR>
+<BR>
+<B><FONT color="#0066cc">BAPTIZE Presents</FONT></B><BR>
+<b><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0066cc">【EYE FOR AN EYE】</FONT></span></b>
+
+<BR>
+<BR>
+<HR>
+<BR>
+<b><A href="live20100801.htm"><FONT color="#0066cc"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT size="+2">2010.08.01 </FONT></span></FONT><FONT size="-1" color="#0066cc"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT size="+2"><span
+lang=EN-US>名古屋Tiny 7<span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></span></FONT></span></FONT></A></b><BR>
+<BR>
+<FONT color="#0066cc"><B><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'>SPIRITUAL BEAST Nagoya Presents <BR>
+【 STRIKE OF THE BEAST Vol.2 】</span><BR>
+<span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>～<span
+lang=EN-US>JURASSIC JADE CD &amp; DVD RELEASE PARTY in Nagoya～</span></span></B></FONT><BR>
+<BR>
+<HR>
+<BR>
+<b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><A href="live20100717.htm"><FONT color="#0066cc" size="+2">2010.07.17</FONT><FONT color="#0066cc" size="+3"><span
+lang=EN-US></span></FONT><FONT color="#0066cc" size="+2"><span
+lang=EN-US> 目黒LIVE STATION</span></FONT></A></span></b><BR>
+<BR>
+<FONT color="#0066cc"><B>BEHIND YOKE SYSTEMS 17<BR>
+「AKATHISIA」&amp;「懺悔の赤」<BR>
+RELEASE GIG</B></FONT><BR>
+<BR>
+<HR>
+<BR>
+<B><A href="live20100703.htm"><FONT size="+2"><span style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'><FONT color="#0066cc" size="+2">2010.07.03<FONT color="#0066cc"><span lang=EN-US> 熊谷HEAVEN'S ROCK VJ-1</span></FONT></FONT></span></FONT></A></B><BR>
+<p class=MsoNormal style='margin-right:-7.5gd'><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span
+lang=EN-US><FONT color="#0066cc">MORTAR RECORD STORE presents<BR>
+kamomekamomeレコ発</FONT></span></span></b></p>
+<BR>
+<HR>
+<BR>
+<B><FONT size="+2" face="ＭＳ Ｐ明朝"><A href="live20100620.htm">2010.06.20 新宿LOFT</A></FONT></B><BR>
+<BR>
+<B><FONT color="#0066cc">平成ラリー塾スペシャル</FONT></B><BR>
+<BR>
+<HR>
+<BR>
+<B><A href="live20100424.htm"><FONT color="#0066cc" size="+2" face="ＭＳ 明朝">2010.04.24 </FONT><FONT color="#0066cc" size="+2" face="ＭＳ 明朝">難波ROKETS</FONT></A></B><BR>
+<p class=MsoNormal><B><FONT color="#0066cc"><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;
+font-family:"ＭＳ Ｐ明朝"'>『毒電波集会～涅槃篇』<span lang=EN-US></span></span></FONT></B><BR>
+</p>
+<HR>
+<BR>
+<A href="live20100110.htm"><B><FONT size="+2" face="ＭＳ Ｐ明朝">2010.01.10 　川崎CLUB CITTA'</FONT></B></A><BR>
+<BR>
+<b><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0066cc">FAR EAST RAMPAGE 2010<BR>
+ADDICT XX</FONT></span></b><BR>
+</CENTER>
+<HR>
+<P align="center"><FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2009</FONT>-</B></FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT color="#0066cc" size="+3"><FONT color="#0066cc" size="+3"><b><FONT color="#0066cc" size="+3"><span style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'></span></FONT></b></FONT></FONT><FONT color="#0066cc" size="+2"><FONT color="#0066cc" size="+2"><b><FONT color="#0066cc" size="+2"><span style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'><FONT color="#0066cc" size="+2"><span lang=EN-US><A href="live20091226.htm">2009.12.26　名古屋HUCK FINN</A></span></FONT></span></FONT></b></FONT></FONT><BR>
+<BR>
+<b><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0066cc">DEEP CONNECT vol.50special</FONT></span></b></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><B><A href="live20091220.htm"><FONT size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#ff0000" size="+2"><span
+lang=EN-US><span style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'><FONT color="#0066cc" size="+2">2009.12.20 </FONT></span></span></FONT><FONT color="#0066cc" size="+2"><FONT color="#0066cc"><span
+lang=EN-US> 新大久保EARTHDOM</span></FONT></FONT></span></FONT></A></B></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><span style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'></span><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0066cc">POWER HALL 26</FONT></span></b></P>
+<HR>
+<P align="center"><b><A href="live20091219.htm"><span style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'><FONT color="#0066cc" size="+2">2009.12.19<FONT color="#0066cc"><span lang=EN-US>　つくばPARK DINER</span></FONT></FONT></span></A></b><BR>
+<BR>
+<FONT color="#0066cc"><b><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'>OZ FEST 2009</span></b></FONT></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><A href="live20091122.htm"><FONT color="#0066cc"><FONT color="#0066cc"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2"><span
+lang=EN-US>2009.11.22 Club Lizard YOKOHAMA</span></FONT></span></FONT></FONT></A></b></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0066cc">BLUE tal YOKOHAMA Curated<BR>
+「BAYSIDE÷GENOCIDE 2009」</FONT></span></b></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><FONT size="+3"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#ff0000" size="+2"><A href="live20091103.htm">2009.11.03<span
+lang=EN-US>　新宿MARZ</span></A></FONT></span></b></FONT></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0066cc">HOLY MOSES JAPAN TOUR 2009</FONT></span></b></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><FONT size="+2"><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:12.0pt;font-family:
+Century;mso-fareast-font-family:"ＭＳ 明朝";mso-bidi-font-family:"Times New Roman";
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;
+mso-bidi-language:AR-SA'></span><b><span style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century;mso-bidi-font-family:"Times New Roman";
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;
+mso-bidi-language:AR-SA'><FONT color="#ff0000" size="+2"><A href="live20091011.htm">2009.10.11<span lang=EN-US> 札幌SOUND LAB MOLE</span></A></FONT></span></b></FONT><FONT size="+1"><BR>
+</FONT></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc">「<span
+lang=EN-US>OVER KILL vol.100 2days!札幌ファイナル！！」</span></FONT></span></b><BR>
+</P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><span lang=EN-US></span><FONT size="+2"><A href="live20091004.htm"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝"'><FONT color="#0066cc" size="+2">2009.<FONT color="#0066cc" size="+2"><span lang=EN-US>10.04 熊谷HEAVEN'S ROCK VJ-1</span></FONT></FONT></span></b></A></FONT><BR>
+</P>
+<P align="center"><B><FONT color="#0066cc">【LITTLE　BASTARDS　レコ発～HARD　CORE　DIE　CIRCUS～】</FONT></B><BR>
+</P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><span lang=EN-US><B><A href="live20090919.htm"><FONT color="#0066cc" face="ＭＳ Ｐ明朝" size="+2">2009.09.19 秋葉原GOODMAN</FONT><FONT color="#0066cc" face="ＭＳ Ｐゴシック" size="+1"><BR>
+</FONT></A></B></span></P>
+<P align="center">
+<B><FONT color="#0066cc" size="+1">OVER KILL Vol.100</FONT></B>
+<BR>
+</P>
+<HR>
+<P align="center"><A href="live20090829.htm"><FONT color="#0066cc" face="ＭＳ 明朝"><B><FONT size="+2">2009.08.29 池袋手刀<span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></FONT></B></FONT></A></P>
+<P align="center">
+<FONT color="#0066cc"><B><span style='font-size:10.5pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'>手刀　夏の三つ巴<span lang=EN-US>3Days<BR>
+「重深」</span></span></B></FONT></P>
+<HR>
+<P align="center"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#ff0000" size="+2"><A href="live20090815.htm">2009.0<span
+lang=EN-US>8.15　名古屋APOLLO THEATER</span></A></FONT></span></b><BR>
+</P>
+<HR>
+<P align="center"><b><A href="live20090720.htm"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2009.07.20<FONT color="#0066cc"><span
+lang=EN-US> 　立川BABEL</span></FONT></FONT></span></A></b><BR>
+<BR>
+<b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc">『<span
+lang=EN-US> The Trooper 』</span></FONT></span><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span></b><BR>
+</P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><A href="live20090620.htm"><b><FONT size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2009.06.20　柏ＡＬＩＶＥ</FONT></span></FONT><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span
+lang=EN-US></span></span></b></A></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><B><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0066cc">RICKDATE presents<BR>
+『 BRAND NEW CHAOS vol.１ 』</FONT></span><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝"'></span></B></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><B><A href="live20090606.htm"><FONT size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2009.0６.0６　渋谷<FONT color="#0066cc"><span
+lang=EN-US>CYCLONE</span></FONT></FONT></span></FONT></A></B></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><FONT color="#0066cc"><b><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'>-PROVOKE-</span></b></FONT><BR>
+<FONT color="#0066cc"><b><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'>THORN 1ST ALBUM RELEASE PARTY in TOKYO</span></b></FONT></P>
+<HR>
+<P align="center"><FONT size="+3"><B><FONT size="+4"><FONT color="#0066cc" size="+4"><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span></FONT></FONT></B></FONT><A href="live20090522.htm"><B><FONT color="#0066cc" size="+2" face="ＭＳ Ｐ明朝">2009.05.22 十三FANDANGO</FONT></B></A><BR>
+
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><FONT color="#0066cc"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>『第十四回
+平成ラリー塾<span lang=EN-US><BR>
+~男には女の淋しさが胸にしみるのです~』</span></span></FONT></b><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><b><span style="mso-spacerun: yes"></span></b></span></P>
+<HR>
+<P align="center"><b><A href="live20090515.htm"><FONT size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2009.0<FONT color="#0066cc"><span
+lang=EN-US>5.15 目黒 THE LIVE STATION</span></FONT></FONT></span></FONT></A></b></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><FONT color="#0066cc"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>夜叉<span
+lang=EN-US>Presents</span></span></b></FONT><BR>
+<FONT color="#0066cc"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>『<span
+lang=EN-US>YASHA 20ｔｈ Anniversary！ <BR>
+成田シンジケート復活版 その1』</span></span></b></FONT></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><A href="live20090411.htm"><FONT color="#0080ff" size="+2">2009.0<FONT color="#0080ff"><span
+lang=EN-US>4.11 高円寺HIGH</span></FONT></FONT></A></span></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0066cc">OGRE-JAPAN　Presents<BR>
+[TOTAL LACERATION Release Party]</FONT></span></b><BR>
+</P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><A href="live20090329.htm"><FONT size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2009.0<FONT color="#0066cc"><span
+lang=EN-US>3.29 神楽坂EXPLOSION</span></FONT></FONT></span></FONT></A></b></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0066cc">HEAVY METAL FORCE VS SKULL SMASH<span
+style="mso-spacerun: yes">&nbsp; </span>2009</FONT></span></b></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><A href="live20090320.htm"><FONT size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2009.03.20<FONT color="#0066cc" size="+0"><span
+lang=EN-US></span></FONT> <FONT color="#0066cc"><span
+lang=EN-US>柏THUMB UP</span></FONT></FONT></span></FONT></A></b></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc">【呀修羅<span
+lang=EN-US> -Exclamation Of Angel TOUR FINAL-】</span></FONT></span></b></P>
+<HR>
+<P align="center"><B><A href="live20090112.htm"><FONT color="#0066cc" size="+2" face="ＭＳ Ｐ明朝">2009.01.12 </FONT><FONT color="#0066cc" size="+2" face="ＭＳ Ｐ明朝">熊谷HEAVEN'S ROCK VJ-1</FONT></A></B><BR>
+<BR>
+<B><FONT color="#0066cc" face="ＭＳ Ｐ明朝">モルタルレコード8周年アニバーサリー<BR>
+～ＧＡＲＬＩＣＢＯＹＳレコ発～<BR>
+</FONT></B></P>
+<HR>
+<P align="center"><b><A href="live20090111.htm"><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2009.01.11</FONT><FONT color="#0066cc" size="+2"> 下北沢CLUB251</FONT></span></A></b><BR>
+<BR>
+<B><FONT color="#0066cc">ROSEROSE NATSUKI presents<BR>
+&quot;DISTURB SITE Vol.18&quot;</FONT></B><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2008</FONT>-</B></FONT></P>
+<HR>
+<P align="center"><b><FONT color="#0066cc" face="ＭＳ 明朝" size="+2"><A href="live20081227.htm">2008.12.27(土) つくばPARK DINER</A></FONT><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><BR>
+<BR>
+<B><FONT size="-1" color="#0066cc">SOUND STUDIO OZ 13th ANNIVERSARY PARTY </FONT><FONT color="#0066cc"><BR>
+OZ FEST 2008</FONT></B><BR>
+</P>
+<HR>
+<P align="center"><BR>
+<FONT size="+3"><b><FONT color="#0066cc" size="+4"><FONT color="#0066cc" size="+4"><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></FONT></FONT></b></FONT><A href="live20081220.htm"><B><FONT color="#0066cc" size="+2" face="ＭＳ 明朝">2008.12.20(土) 難波ロケッツ</FONT></B></A><BR>
+<BR>
+<FONT color="#0066cc"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>「<span
+lang=EN-US>LIVE　THE　LOUD　Vol.１」</span></span></b></FONT>
+<BR>
+</P>
+<HR>
+<P align="center"><A href="live20081207.htm"><FONT color="#0066cc" size="+2" face="ＭＳ Ｐ明朝"><FONT color="#0066cc" size="+2" face="ＭＳ Ｐ明朝"><B>2008.12.07（日）　新潟club RIVERST</B></FONT></FONT><FONT color="#0066cc" size="+4"><B><span style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'><span lang=EN-US></span></span><BR>
+</B></FONT></A><BR>
+<FONT color="#0066cc"><B><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'>Edenation　2008　　vol.2</span><BR>
+<span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'>&quot;JURASSIC　JADE　ENDOPLASMレコ発&quot;</span></B></FONT>
+<BR>
+</P>
+<HR>
+<P align="center"><A href="live20081206.htm"><FONT color="#0066cc" size="+2" face="ＭＳ 明朝"><B>2008.12.06</B></FONT><FONT size="+2" color="#0066cc"><b><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT size="+2">（土）　仙台</FONT></span><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'><FONT size="+2">PARK　SQUARE</FONT></span></b></FONT></A><BR>
+<BR>
+<B><FONT color="#0066cc"><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'>TASTE presents</span></FONT></B><BR>
+<b><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'><FONT color="#0066cc">&quot;DEATH OF BRUTALITY vol.13&quot;</FONT></span></b><BR>
+</P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><FONT color="#0066cc"><B><A href="live20081116.htm"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT size="+1"><FONT size="+2">2008.</FONT></FONT><span
+lang=EN-US><FONT size="+2">11.１６（日）　池袋手刀</FONT></span></span></A></B></FONT></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><FONT color="#0066cc"><B><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>「池袋手刀六周年記念公演」<BR>
+<span
+lang=EN-US>&quot;DARK SIDE ROCKER'S SPECIAL</span></span>&quot;</B></FONT></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#ff0000"><A href="live20081114.htm"><FONT size="+2">2008.11.１４日（金）　つくばPARK DINER</FONT></A></FONT></span></b></P>
+<P align="center"><FONT color="#0066cc"><b><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'>GARLIC BOYS「激情」TOUR 2008-2009</span></b></FONT>
+</P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><A href="live20081018.htm"><FONT color="#0066cc" size="+2"><B>2008.<FONT color="#0066cc" size="+2"><span
+lang=EN-US>10.18（土） 静岡Sunash</span></FONT></B></FONT></A></span></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><B><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0080ff">LiquidVision x Sunash 10TH ANNIVERSARY <BR>
+OH!FIGHT FOR-054-SP!</FONT></span></B></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><A href="live20081011.htm"><FONT size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2008.<FONT color="#0066cc"><span
+lang=EN-US>10.11日（土）　札幌Sound Lab mole</span></FONT></FONT></span></FONT></A></b></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century;mso-bidi-font-family:"Times New Roman";
+mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;
+mso-bidi-language:AR-SA'><FONT color="#0080ff">OVERKILL Vol.97</FONT></span></b><BR>
+</P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><A href="live20080913.htm"><FONT size="+1"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2008.0９.<FONT color="#0066cc" size="+2"><span
+lang=EN-US>13日（土）　足利North-BBC</span></FONT></FONT></span></FONT></A></b></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span><B><span
+lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span><FONT color="#0080ff">ENEMA Presents</FONT></B></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><A href="live20080906.htm"><FONT size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2008.0９.0<FONT color="#0066cc" size="+2"><FONT color="#0066cc"><span
+lang=EN-US>6日（土）　新宿MARZ</span></FONT></FONT></FONT></span></FONT></A></b></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><span
+lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0080ff">TOKYO DARKCASTLE Vol.44</FONT></span></B><BR>
+</P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><B><A href="live20080803.htm"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2008.0<FONT color="#0066cc" size="+2"><FONT color="#0066cc"><FONT color="#0066cc"><span
+lang=EN-US>8.03日（日）　高松PUNCH HALL</span></FONT></FONT></FONT></FONT></span></A></B></P>
+<P align="center"><FONT color="#0080ff"><B><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>「ＶＩＳＩＯＮＳ<span
+lang=EN-US> 080803」</span></span></b><span lang=EN-US style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></B></FONT><BR>
+</P>
+<HR>
+<P align="center"><b><FONT size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2"><A href="live20080802.htm">2008.0<FONT color="#0066cc" size="+2"><span
+lang=EN-US>8.02日（土）　高知X-pt.</span></FONT></A></FONT></span></FONT></b><BR>
+<BR>
+</P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#ff0000" size="+2"><A href="live20080720.htm">2008.07.<span
+lang=EN-US>20（日）名古屋栄TIGHT ROPE</span></A></FONT></span></b></P>
+<P align="center"><FONT color="#0080ff"><b><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'>[JURASSIC JADE &quot;ENDOPLASM&quot;レコ発in 名古屋]</span></b></FONT><BR>
+</P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#ff0000" size="+2"><A href="live20080719.htm">2008.0７.<span
+lang=EN-US>19（土）難波ROCKETS</span></A></FONT></span></b></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><b><span
+lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0080ff">&quot;GOOD RIDDANCE vol.82&quot;</FONT></span></b><BR>
+</P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2"><A href="live20080713.htm">2008.0７.<FONT color="#0066cc" size="+2"><span
+lang=EN-US>13（日）川崎CLUB CITTA</span></FONT></A></FONT></span></b></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'><FONT color="#0088ff">ADDICT XX　アディクト・ダブルエックス</FONT></span></b><BR>
+<BR>
+</P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><B><A href="live20080712.htm"><FONT size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2008.0７.<FONT color="#0066cc"><FONT color="#0066cc"><span
+lang=EN-US>12（土）目黒LIVE STATION</span></FONT></FONT></FONT></span></FONT></A></B></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><B><FONT color="#0088ff"><FONT color="#0088ff"><b style='mso-bidi-font-weight:
+normal'><FONT color="#0088ff"><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0088ff"><span
+lang=EN-US>BEHIND YOKE SYSTEMS 16</span></FONT></span></FONT></b></FONT><BR>
+<b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'>BRAND NEW MINI ALBUM<BR>
+「ENDOPLASM」RELEASE GIG</span></b></FONT></B><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+3"><A href="live20080615.htm"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2"><FONT color="#0066cc" size="+2"><span
+lang=EN-US>2008.06.15（日）目黒LIVE STATION</span></FONT></FONT></span></b></A></FONT><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><b><A href="live20080614.htm"><FONT size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2008.06.14<FONT color="#0066cc"><span
+lang=EN-US>(土）熊谷blue forest</span></FONT></FONT></span></FONT></A></b><BR>
+<BR>
+<FONT color="#0088ff"><B><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span
+lang=EN-US>MORTAR RECORD PRESENTS<BR>
+「uber </span></span><span lang=EN-US style='mso-ascii-font-family:"ＭＳ Ｐ明朝";mso-fareast-font-family:
+"ＭＳ Ｐ明朝"'>“</span><span lang=EN-US
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>NEW ALBUM RELEASE TOUR」<BR>
+</span></B></FONT><FONT color="#0066cc"><span lang=EN-US
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span><B><span lang=EN-US
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span><span lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></B></FONT><BR>
+</P>
+<HR>
+<P align="center"><b><A href="live20080525.htm"><FONT size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2008.0<FONT color="#0066cc"><span
+lang=EN-US>5.25（日）神楽坂EXPLOSION</span></FONT></FONT></span></FONT></A></b><BR>
+<BR>
+<b><span
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0088ff">「<FONT color="#0088ff"><span lang=EN-US>SUMMONS of the HELL」</span></FONT></FONT></span></b><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><b><FONT size="+1" color="#ff0000"><FONT color="#ff0000" size="+0"><FONT color="#ff0000" size="+3"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></FONT></FONT><FONT color="#ff0000" size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#ff0000" size="+2"><span
+lang=EN-US></span></FONT></span></FONT><A href="live20080505.htm"><FONT color="#ff0000" size="+1"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2"><FONT color="#0066cc"><span
+lang=EN-US>2008.05.05（月・祭日）吉祥寺CRESCEND</span></FONT></FONT></span></FONT></A></FONT></b><BR>
+<BR>
+<FONT color="#0080ff"><FONT size="+1"><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span><span
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span lang=EN-US></span></span></FONT><FONT size="+4"><span
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span lang=EN-US></span></span></FONT><FONT size="+2"><span
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span lang=EN-US></span></span><span lang=EN-US
+style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span></FONT><FONT size="+1"><B>slam vol.25</B></FONT></FONT></P>
+<HR>
+<P align="center"><FONT size="+3"><B><FONT color="#ff0000" size="+2"><A href="live20080329.htm"><FONT color="#0066cc" size="+2" face="ＭＳ Ｐ明朝">2008.03.29（土）名古屋APOLLO THEATER</FONT></A></FONT></B></FONT><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2007</FONT>-</B></FONT></P>
+<HR>
+<P align="center"><FONT size="+2"><B><A href="live20071215.htm">2007.12.15（土） つくばPARK DINER</A></B></FONT><BR>
+<BR>
+<FONT color="#0088ff"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><SPAN style='font-size:10.5pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA;mso-bidi-font-weight:bold'>SOUND STUDIO OZ 12th ANNIVERSARY PARTY<BR>
+【OZ FEST 2007】</SPAN></span></B></FONT><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><B><A href="live20071008.htm"><FONT size="+2">2007.10.08(月・祭日）いわきCLUB SONIC</FONT></A></B><BR>
+<BR>
+<span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><B><FONT color="#0066cc">鯰企画<span lang=EN-US>UNDER THE NEIGHBOR Vol.19<BR>
+「&quot;Thrash queen゛ appears again!」</span></FONT></B></span><BR>
+</P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><A href="live20071007.htm"><B><FONT size="+2" color="#0066cc"><FONT color="#0066cc" size="+2"><FONT color="#0066cc" size="+2"><FONT color="#0066cc" size="+3"><FONT size="+3" color="#0066cc"><FONT size="+3" color="#0066cc"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></FONT></FONT><FONT size="+3"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+3"><FONT size="+3"><span
+lang=EN-US></span></FONT></FONT></span></FONT><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+3"><span
+lang=EN-US></span></FONT></span></FONT><FONT color="#0066cc" size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2"><span
+lang=EN-US>2007.10.07（日）仙台HOOK</span></FONT></span></FONT></FONT></FONT></FONT></B></A></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><span
+lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0066cc">TASTE presents &quot;DEATH OF BRUTALITY
+vol.9&quot;</FONT></span></B><span lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><B><A href="live20071006.htm"><FONT size="+2">2007.10.06（土）盛岡</FONT><FONT size="+4"><FONT color="#ff0000" size="+3"><FONT color="#ff0000" size="+4"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></FONT><FONT color="#ff0000" size="+3"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#ff0000" size="+3"><span
+lang=EN-US></span></FONT></span></FONT></FONT><FONT color="#ff0000" size="+2"><FONT color="#0066cc" size="+2"><FONT color="#0066cc"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2"><FONT color="#0066cc"><FONT color="#0066cc"><span
+lang=EN-US>Club Change</span></FONT></FONT></FONT></span></FONT></FONT></FONT></FONT></A></B></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><FONT size="+2"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><span
+lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span></B></FONT><B><span
+lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0066cc" size="+0">MORBID AXE &amp; BAPTIZE合同企画</FONT></span></B><FONT size="-1"><B><span
+lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></B></FONT></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><FONT size="+2"><A href="live20070915.htm">2007.09.15（土）吉祥寺CRESCENDO</A></FONT><FONT color="#ff0000" size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span
+lang=EN-US></span></span></FONT></b></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><B><FONT color="#0066cc">CRESCENDO Presents LOUD EVENT<BR>
+[ slam vol.22 ]</FONT></B></span></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><A href="live20070908.htm"><FONT size="-1"><B><FONT size="+2">2007.09.08(日）韓国ソウルGHOST THEATER</FONT><FONT size="+1"><FONT color="#ff0000" size="+1"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span
+lang=EN-US></span></span></FONT></FONT></B></FONT></A></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><B><FONT color="#0066cc">「<span lang=EN-US>METAL
+　BEAST」</span></FONT></B></span></P>
+<HR>
+<P align="center"><BR>
+<B><A href="live20070826.htm"><FONT size="+2">2007.08.26(日)高円寺20000V</FONT><FONT size="+4" color="#ffffff"><FONT size="+4"><FONT size="+4"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span
+lang=EN-US></span></span></FONT></FONT></FONT></A></B></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><FONT color="#0066cc"><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>RYUKYU
+MAJIMUN ATTACK at KOENJI20000V</span></FONT></B><BR>
+</P>
+<HR>
+<P align="center"><BR>
+<A href="live20070810.htm"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2007.0<FONT color="#0066cc"><span
+lang=EN-US>8.10（金）横浜７th AVENUE</span></FONT></FONT></span></b></A><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><BR>
+<B><A href="live20070716.htm"><FONT size="+2" color="#0066cc">2007.0<span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT size="+2"><span
+lang=EN-US>7.16（月・祝日</span></FONT></span></FONT><FONT size="+3" color="#0066cc"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT size="+4"><span
+lang=EN-US><span style='font-size:10.5pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'></span></span></FONT><FONT size="+3"><span
+lang=EN-US><span style='font-size:10.5pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'></span></span></FONT></span></FONT><FONT size="+2" color="#0066cc"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT size="+2"><span
+lang=EN-US>）大阪西九条ブランニュー</span></FONT></span></FONT></A></B></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><B><FONT color="#0066cc">「<span lang=EN-US>HELL
+ON EARTH 3days」</span></FONT></B></span><BR>
+</P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><A href="live20070715.htm"><FONT size="+2"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2007.0<FONT color="#0066cc"><span
+lang=EN-US>7.15（日）福山MUSIC FACTRY</span></FONT></FONT></span></b></FONT></A></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc">■HUMAN
+SHIT TERROR■</FONT></span><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b></B><BR>
+</P>
+<HR>
+<P align="center"><BR>
+<span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc"><FONT color="#0066cc" size="+2"><span
+lang=EN-US><A href="live20070603.htm">2007.06.03（日）香川PUNCH HALL</A></span></FONT></FONT></span></b></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><FONT color="#0088ff"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'>［ＶＩＳＩＯＮＳ vol：16］</span></B></FONT></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b><A href="live20070602.htm"><FONT size="+1"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2007.06.02<FONT color="#0066cc" size="+2"><FONT color="#0066cc"><span
+lang=EN-US>（土）松山星空JETT Rock-Bar</span></FONT></FONT></FONT></span></FONT></A></b></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><FONT color="#0088ff"><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>『<span lang=EN-US>EXTREMEDIVES，vol.44=special!!!!』</span></span><BR>
+<span lang=EN-US
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>---ヱクストリームダイヴス伍周年記念特別興行。第二弾!!!!---</span></FONT></B></P>
+<HR>
+<P align="center"><BR>
+<B><FONT size="+2"><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span><A href="live20070513.htm"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></A></FONT></B><FONT color="#0066cc"><B><FONT size="+2"><A href="live20070513.htm"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT size="+2">2007.05.13<span
+lang=EN-US>（日）八王子HAVANA</span></FONT></span></A></FONT></B></FONT></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><FONT color="#0088ff"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span
+lang=EN-US style='mso-bidi-font-weight:bold'>CLUB HAVANA PRESENTS<BR>
+「L.R</span></span></b><span
+lang=EN-US style='mso-ascii-font-family:"ＭＳ Ｐ明朝";mso-fareast-font-family:"ＭＳ Ｐ明朝"'>　</span><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>LOUD
+ROUND VOL.28」</span></B></FONT><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span><span lang=EN-US style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span></B></P>
+<HR>
+<P align="center"><BR>
+<FONT size="+4"><FONT color="#ff0000" size="+2"><FONT size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT size="+2" color="#0066cc"><FONT size="+2" color="#0066cc"><span
+lang=EN-US><A href="live20070505.htm"><FONT size="+2" color="#0066cc"><B>2007.05.05（土）熊谷blue forest</B></FONT></A></span></FONT></FONT></span></FONT></FONT></FONT></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0088ff">「HARD　CORE　CIRCUS　vol．２」</FONT></span></b></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><A href="live20070430.htm"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span><FONT size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2007.04.30<FONT color="#0066cc"><span
+lang=EN-US>（月・祝日）横浜７th AVENUE</span></FONT></FONT></span></FONT></b></A></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0088ff">魂音の饗宴～葵之巻～</FONT></span></B><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><BR>
+TorN NEW SINGLE「葵」発売記念</span></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><FONT color="#0066cc"><FONT size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2"><FONT color="#0066cc" size="+2"><B><A href="live20070408.htm">2007.04.08<FONT color="#0066cc" size="+2"><span
+lang=EN-US>（日）名古屋上前津CLUB ZION</span></FONT></A></B></FONT></FONT></span></FONT></FONT></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0088ff"><B>NO-REMORSE presents<BR>
+「DEEP CONNECT vol.25」</B></FONT></span><BR>
+<span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT size="-1">＜<span lang=EN-US>NO-REMORSE 3rd anniversary
+2DAYS（４月７・8日）＞</span></FONT></span></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><A href="live20070325.htm"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2"><B>2007.03.25<FONT color="#0066cc" size="+2"><span
+lang=EN-US>（日）徳島ジッターバグ</span></FONT></B></FONT></span></A></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><FONT color="#0080ff"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>JITTERBUG 20 Aniversario<BR>
+「Lucha Lible」</span></B></FONT></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><FONT size="+2" color="#0066cc"><A href="live20070324.htm"><FONT color="#0066cc"><B>2007.03.24<FONT color="#0066cc"><FONT color="#0066cc"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2"><FONT color="#0066cc"><span
+lang=EN-US>（土）北堀江club vijon</span></FONT></FONT></span></FONT></FONT></B></FONT></A></FONT></P>
+<P class="MsoNormal" align="center"><b style='mso-bidi-font-weight:normal'><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><FONT color="#0080ff"><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>[夜の大阪] </span><span lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'><BR>
+第弐拾八幕</span></FONT></B><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+2"><A href="live20070323.htm"><b><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2">2007.03.23<FONT color="#0066cc"><span
+lang=EN-US>（金）神戸URBAN SQUARE</span></FONT></FONT></span></b></A></FONT></P>
+<P align="center"><B><FONT color="#0080ff"><span
+lang=EN-US style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'>IKEGAWA企画<BR>
+</span><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span
+lang=EN-US></span>【†鋼黙示録　第<span
+lang=EN-US>16章† ～煉獄～】</span></span></FONT></B>
+<BR>
+</P>
+<HR>
+<P align="center"><b><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span><A href="live20070204.htm"><FONT size="+2" color="#0066cc">2007.02.04<FONT color="#0066cc"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2"><FONT color="#0066cc" size="+2"><FONT color="#0066cc"><span
+lang=EN-US>（日）新木場STUDIO COAST</span></FONT></FONT></FONT></span></FONT></FONT></A></b></P>
+<P class="MsoNormal" align="center"><B><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span
+lang=EN-US><FONT color="#0088ff">independence-D 2007　<BR>
+METAL/SHOCK ROCK DAY</FONT></span></span></B><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span
+lang=EN-US></span></span><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2006</FONT>-</B></FONT></P>
+<HR>
+<P align="center"><span lang=EN-US
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span><B><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2"><A href="live20061230.htm">2006.12.30<FONT color="#0066cc" size="+2"><span lang=EN-US>（日）　名古屋ダイヤモンドホール</span></FONT></A></FONT><span
+lang=EN-US></span></span></B></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0088ff">HOUSE OF
+NOISE Vol.12</FONT></span></B><BR>
+</P>
+<HR>
+<P align="center"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><A href="live20061228.htm"><B><FONT color="#0080ff"><FONT color="#0066cc" size="+2"><FONT color="#0066cc"><span lang=EN-US>2006.12.28（木）　新宿ロフト</span></FONT></FONT></FONT></B><span
+lang=EN-US></span></A></span></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><FONT color="#0088ff"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;
+mso-bidi-font-weight:bold'>PULLING TEETH</span><span lang=EN-US
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'> presents 「酒ナイト」</span></B></FONT></P>
+<HR>
+<P align="center"><FONT color="#6699cc" face="ＭＳ Ｐゴシック"><A href="live20061210.htm"><FONT size="+2" face="ＭＳ ゴシック"><FONT size="+2" face="ＭＳ ゴシック"><FONT face="ＭＳ ゴシック"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'>2006.<FONT size="+2" face="ＭＳ ゴシック"><FONT face="ＭＳ ゴシック"><span lang=EN-US>12.10（日） </span></FONT></FONT></span></FONT></FONT><FONT face="ＭＳ ゴシック"><span
+style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;mso-hansi-font-family:
+Century'>つくば</span></FONT></FONT><FONT size="+2"><span
+style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;mso-hansi-font-family:
+Century'></span><span lang=EN-US>PARK DINER</span><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></FONT><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></A></FONT><P class="MsoNormal" style="margin-right:-7.5gd" align="center"><FONT color="#0088ff"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><SPAN style='font-size:10.5pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA;mso-bidi-font-weight:bold'>SOUND STUDIO OZ 11th ANNIVERSARY PARTY<BR>
+【OZ FEST 2006】</SPAN></span></B></FONT></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><FONT size="+3"><B><A href="live20061124.htm"><FONT color="#ff0000" size="+2"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span></FONT></A></B></FONT><FONT size="+3" color="#0066cc"><B><A href="live20061124.htm"><FONT size="+2">2006.11.24(金）　目黒LIVE STATION<span lang=EN-US style='font-size:
+11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span></FONT><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span><FONT size="+2"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span lang=EN-US><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span lang=EN-US></span></span></span></span></FONT></A><FONT size="+2"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span lang=EN-US><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span
+lang=EN-US></span></span></span></span></FONT></B></FONT><FONT color="#0066cc"><B><FONT size="+3"><FONT size="+2"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span lang=EN-US><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span
+lang=EN-US></span></span></span></span></FONT><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT size="+2"><span lang=EN-US></span></FONT></span></FONT></B></FONT><B><FONT color="#0066cc"><FONT size="+3"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span></FONT></FONT><FONT color="#6699cc"><FONT size="+3"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span></FONT></FONT><FONT size="+3"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span
+lang=EN-US></span></span></FONT></B></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><FONT color="#0088ff"><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>BEHIND YOKE SYSTEMS 15</span><BR>
+Jurassic Jade VS Rose Rose <BR>
+「真剣勝負」</FONT></B></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><FONT size="+1"><B><FONT color="#ff0000" size="+1"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span></FONT></B></FONT><FONT color="#0066cc"><A href="live20060707.htm"><FONT size="+2"><B><FONT size="+2">2006.07</FONT></B></FONT><FONT size="+2"><B><FONT size="+2"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span lang=EN-US>.07（金）　<span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span
+lang=EN-US></span></span></span></span></FONT></B><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><B><FONT size="+2"><span lang=EN-US>音処池袋手刀CHOP</span></FONT></B></span></FONT></A><B><FONT size="+2"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT size="+2"><span lang=EN-US></span></FONT></span></FONT></B></FONT><B><FONT size="+2"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT color="#ff0000" size="+2"><span lang=EN-US></span></FONT><span
+lang=EN-US></span></span></FONT></B></P>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><B><FONT color="#0088ff"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>CUT THE CRAP presents<BR>
+&quot;バリテックvol.20 レコ発3man&quot;</span></FONT></B></P>
+<P></P>
+<HR>
+<P align="center"><FONT size="+2" color="#6699cc"><B><FONT size="+2"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span></FONT></B><A href="live20060701.htm"><B><FONT size="+2">2006.<span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span lang=EN-US style='font-size:
+11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span></span><span lang=EN-US style='font-size:
+11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span></FONT></B><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span><B><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span><FONT size="+2"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span lang=EN-US>07.01（土）　<span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span
+lang=EN-US></span></span></span></span></FONT></B><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><B><FONT size="+2"><span lang=EN-US><BR>
+札幌KLUB COUNTER ACTION</span></FONT></B></span></A></FONT><FONT size="+1"><BR>
+<BR>
+<BR>
+</FONT></P>
+<HR>
+<P align="center"><B><FONT size="+2"><A href="live20060617.htm">2006.06.17（土）　水海道FAITH</A></FONT></B></P>
+<P align="center"><FONT color="#0088ff"><b style='mso-bidi-font-weight:
+normal'><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>SOUND STUDIO OZ PRESENTS <BR>
+［EXESSIVE NARCISSISM vol.2</span>］</B></FONT></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><B><FONT size="+1" color="#0066cc"><FONT size="+1"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span></FONT></FONT><FONT color="#0066cc"><A href="live20060520.htm"><FONT size="+2"><FONT size="+2">2006.</FONT></FONT><FONT size="+3"><FONT size="+3"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span lang=EN-US style='font-size:
+11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span></span><span lang=EN-US style='font-size:
+11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span></FONT><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span></FONT><FONT size="+2"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span><FONT size="+2"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span lang=EN-US>05.20</span></span></FONT></FONT><FONT size="+1"><FONT size="+2"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span lang=EN-US>（土）</span></span></FONT></FONT><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span lang=EN-US></span></span><FONT size="+2"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span lang=EN-US>横須賀</span></span><span
+style='font-size:12.0pt;font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;
+mso-hansi-font-family:Century'></span></FONT><FONT size="+4"><span
+style='font-size:12.0pt;font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;
+mso-hansi-font-family:Century'>かぼちゃ屋</span></FONT></A></FONT></B></P>
+<P align="center"><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0080ff">OUTRAGE LET'S GO MENTAL ! TOUR　2006</FONT></span></B></P>
+<HR>
+<P align="center"><B><FONT color="#ff0000"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span></FONT><A href="live20060505.htm"><FONT color="#0066cc" size="+2">2006.5.5（金）仙台MACANA</FONT><FONT color="#0066cc" size="+4"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></FONT></A><FONT color="#0066cc" size="+3"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span lang=EN-US></span></span></span></FONT><FONT color="#ff0000"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span lang=EN-US></span></span></span><span lang=EN-US style='font-size:
+11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span></FONT></B></P>
+<P align="center"><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0080ff">TASTE presents 【DEATH OF BRUTALITY vol.5】</FONT></span></B></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><B><FONT color="#ff0000"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span></FONT><FONT color="#0066cc" size="+2"><A href="live20060429.htm">2006.4.29（土）下北沢CLUB251</A><FONT color="#0066cc" size="+2"><span lang=EN-US style='font-size:
+11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span></FONT><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span lang=EN-US style='font-size:
+11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span></span></FONT><FONT color="#ff0000"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span lang=EN-US style='font-size:
+11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span>　</span><span lang=EN-US style='font-size:
+11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span></FONT></B></P>
+<P align="center"><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0080ff">DISTURB SITE Vol.14<BR>
+<span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'>「<span lang=EN-US>ROSEROSE/NEO UNKNOWN TRANCED SLAYERS RELEASE GIG」</span></span></FONT></span></B></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><B><FONT color="#0066cc"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span><A href="live20060326.htm"><FONT size="+2">2006.3.26（日）渋谷eggman</FONT></A></FONT><A href="live20060326.htm"><FONT color="#ff0000" size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span lang=EN-US style='font-size:
+11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span><span lang=EN-US style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span></span></FONT><FONT color="#ff0000" size="+1"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></FONT><FONT color="#ff0000"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></FONT></A><FONT color="#ff0000"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>　</span><span lang=EN-US style='font-size:
+11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span></FONT></B></P>
+<P align="center"><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0080ff">shibuya eggman presents <BR>shibuya eggman 25<sup>th</sup> anniversary <SPAN style='mso-ascii-font-family:"ＭＳ Ｐ明朝";mso-fareast-font-family:"ＭＳ Ｐ明朝"'>“</SPAN>We Didn<SPAN style='mso-ascii-font-family:"ＭＳ Ｐ明朝";mso-fareast-font-family:"ＭＳ Ｐ明朝"'>’</SPAN>t The
+Fire<SPAN style='mso-ascii-font-family:"ＭＳ Ｐ明朝";mso-fareast-font-family:
+"ＭＳ Ｐ明朝"'>”</SPAN></FONT></span></B></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><B><FONT color="#ff0000"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span></FONT><FONT color="#ff0000" size="+2"><A href="live20060318.htm">2006.3.18（土）神戸URBAN SQUARE</A><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span lang=EN-US style='font-size:
+11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span><span lang=EN-US style='font-family:
+"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></span></FONT><FONT color="#ff0000" size="+1"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></FONT><FONT color="#ff0000"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>　</span><span lang=EN-US style='font-size:
+11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span></FONT></B></P>
+<P align="center"><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0080ff">CHAOSTIC
+DOMINATION vol.1</FONT></span></B></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><B><FONT color="#ff0000" size="+2"><A href="live20060317.htm">2006.3.17(金）四日市CLUB CHAOS</A><span lang=EN-US style='font-size:
+11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></FONT></B></P>
+<P align="center"><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0080ff">COME BANG
+WITH THE GANG!! #15</FONT></span></B></P>
+<HR>
+<P align="center"><FONT size="+2" color="#0066cc"><B><A href="live20060218.htm">2006.2.18<span lang=EN-US style='font-size:
+11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span><FONT size="5">（土）八王子HAVANA</FONT></A></B></FONT></P>
+<P align="center"><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>
+</span><FONT color="#0080ff"><b style='mso-bidi-font-weight:normal'><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;
+mso-bidi-font-weight:bold'>CLUB HAVANA PRESENTS<BR>
+■L.R ~LOUD ROUND VOL.25~LADY'S ROUND■</span></B></FONT></P>
+<HR>
+<P class="MsoNormal" style="margin-right:-7.5gd" align="center"><FONT size="+2" color="#0066cc"><B><A href="live20060122.htm"><FONT size="+2">2006.1.22<span lang=EN-US style='font-size:
+11.0pt;mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span></FONT><FONT size="5"><FONT size="5"><FONT size="5">（日）難波ロケッツ</FONT></FONT></FONT></A></B><span lang=EN-US style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span></FONT></P>
+<P align="center"><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>
+</span><FONT color="#0080ff"><b style='mso-bidi-font-weight:normal'><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>EXTREME
+ROCK ORGASM</span></B></FONT><BR>
+</P>
+<HR>
+<P align="center"><b><FONT color="#0080ff" size="+1"><span lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span></FONT><A href="live20060107.htm"><FONT color="#0066cc" size="+2">2006.1.7<span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span
+lang=EN-US></span></span></FONT><FONT color="#0066cc" size="+4"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span
+lang=EN-US></span></span></FONT><FONT color="#0066cc" size="+2"><FONT size="+2"><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT size="+2"><span
+lang=EN-US>（土）目黒LIVE STATION</span></FONT></span></FONT></FONT></A></b></P>
+<P align="center"><B><span lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span></B><FONT color="#0080ff"><b style='mso-bidi-font-weight:normal'><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>BEHIND YOKE SYSTEMS 14　<BR>[SKULL SMASH 21st Century</span></B></FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2005</FONT>-</B></FONT></P>
+<HR>
+<P align="center"><FONT size="+1"><B><FONT color="#ff0000" size="+1"><span lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span></FONT></B></FONT><B><A href="live20051225.htm"><FONT size="+1" color="#0066cc"><FONT size="+2">2005.12.25（日）</FONT><FONT size="+1"><span style='font-size:12.0pt;
+font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;mso-hansi-font-family:Century'></span><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></FONT></FONT><FONT size="+2" color="#0066cc"><FONT size="+2"><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>名古屋ダイヤモンドホール</span></FONT></FONT><FONT size="+2"><FONT color="#ff0000" size="+2"><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></FONT><FONT color="#ff0000" size="+2"><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></FONT><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span
+lang=EN-US></span></span></FONT></A></B></P>
+<P align="center"><FONT size="+1"><B><span lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'><FONT color="#0080ff" size="+1">[HOUSE OF NOISE -5th ANNIVERSARY SPECIAL-]</FONT></span></B></FONT></P>
+<HR>
+<P align="center"><A href="live20051222.htm"><B><FONT size="+2" color="#0066cc"><FONT size="+2">2005.12.22（木）　渋谷CYCLONE</FONT></FONT></B></A><BR>
+<B><FONT color="#ff0000"><span lang=EN-US style='font-size:12.0pt'></span></FONT></B><BR>
+<B><FONT color="#0080ff">「Origin Of Dazzle」レコ発イベントVol.2</FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P class="MsoNormal" align="center"><FONT color="#0066cc" size="+4"><b style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:10.5pt;
+mso-bidi-font-size:12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;
+mso-bidi-font-family:"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:
+EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'></span></b><b><span lang=EN-US style='font-size:12.0pt'></span><span style='font-size:12.0pt;font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'></span><span
+lang=EN-US style='font-size:12.0pt'></span><A href="live20051210.htm"><span
+lang=EN-US style='font-size:12.0pt'></span></A></b><A href="live20051210.htm"><span
+lang=EN-US style='font-size:12.0pt'><FONT size="+4"><FONT size="+2"><B>2005.12.10(土）</B></FONT></FONT></span><span
+style='font-size:12.0pt;font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;
+mso-hansi-font-family:Century'></span><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span></A></FONT><b><FONT color="#0066cc" size="+3"><A href="live20051210.htm"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><FONT size="+2">いわきソニック</FONT></span></A></FONT><A href="live20051210.htm"><FONT color="#ff0000"><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'></span></FONT><span style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'><span lang=EN-US></span></span></A></b></P>
+<P class="MsoNormal" align="center"><B><FONT color="#0080ff"><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span lang=EN-US>NAMAZ Presents <BR>
+「祝 いわきソニック2周年、2005 UNDER </span></span><BR>
+<span lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'>THE NEIGHBOR SPECIAL!“METALIZE PLANNING”」</span></FONT><span lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'><span style="mso-spacerun:
+yes"></span></span></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><A href="live20051126.htm"><B><FONT size="+2">2005.11.26（土）筑波PARK DINER</FONT></B></A></P>
+<P align="center"><FONT size="+1"><b><FONT color="#ff0000" size="+1"><span lang=EN-US style='font-size:
+12.0pt;font-family:"ＭＳ 明朝";mso-bidi-font-weight:bold'><span style='font:7.0pt "Times New Roman"'></span></span><span lang=EN-US style='font-size:12.0pt'></span></FONT><FONT color="#ff0000" size="+3"><span lang=EN-US style='font-size:12.0pt'></span></FONT></b></FONT><B><FONT color="#0080ff"><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span
+lang=EN-US></span></span></FONT></B><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span><B><FONT color="#0080ff">OZ FEST 2005</FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><A href="live20051009.htm"><FONT size="+2"><B>2005.10.09（土）</B></FONT><FONT size="+1" color="#0066cc"><FONT size="+2"><FONT size="+2"><span lang=EN-US style='font-size:12.0pt'></span></FONT></FONT></FONT><FONT color="#0066cc" size="+2"><span style='font-size:12.0pt;
+font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;mso-hansi-font-family:Century'></span><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></FONT><B><FONT color="#0066cc" size="+2"><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>Club
+Lizard YOKOHAMA</span></FONT></B></A></P>
+<P class="MsoNormal" align="center"><B><FONT color="#0080ff"><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span
+lang=EN-US></span></span><span style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century;mso-bidi-font-weight:bold'>バギングライフ<span lang=EN-US> presents!!<BR>
+「TO DRUNK TOO FUCK Vol.2 」</span></span></FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><FONT size="+2"><B><A href="live20051001.htm">2005.10.01（土）六本木Y2K</A></B></FONT></P>
+<P class="MsoNormal" align="center"><b style='mso-bidi-font-weight:normal'><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><B><FONT color="#0080ff">五人一首主催「内視鏡世界 其の<span
+lang=EN-US>2」(五人一首レコ発記念)</span></FONT></B></span><BR>
+<BR>
+</P>
+<HR>
+<P class="MsoNormal" style="margin-left:18.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo1;
+tab-stops:list 18.0pt" align="center"><FONT color="#ff0000" size="+2"><b><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b></FONT><A href="live20050922.htm"><B><FONT size="+2" color="#0066cc">2005.09.22(木）<span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>下北沢SHELTER</span></FONT></B></A></P>
+<P class="MsoNormal" align="center"><FONT color="#0080ff"><B><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span lang=EN-US>DEAF
+FOREVER</span></span></B></FONT><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><B><FONT color="#0066cc" size="+2"><A href="live20050827.htm">2005.08.27(土） 大邱Culture&amp;Arts Center</A></FONT></B></P>
+<P class="MsoNormal" align="center"><FONT size="+1"><B><b style='mso-bidi-font-weight:normal'><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;
+mso-bidi-font-weight:bold'></span></B></FONT><FONT size="+1" color="#0080ff"><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;
+mso-bidi-font-weight:bold'>2005</span><span lang=EN-US style='font-family:"ＭＳ Ｐ明朝";
+mso-hansi-font-family:Century'> Dooryu rock festival 　2nd DAY</span></B></FONT><BR>
+<BR>
+</P>
+<HR align="center">
+<P align="center"><FONT size="+1" color="#ff0000"><FONT size="+1" color="#ff0000"><b><FONT size="+1" color="#0066cc"><FONT size="+2" color="#0066cc"><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><A href="live20050820.htm">2005.08.20（土）　<FONT size="+1">大阪府豊中市</FONT> 服部緑地野外音楽堂</A></span></FONT></FONT></b></FONT></FONT><FONT size="+2"><b><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span
+lang=EN-US></span></span></b></FONT>
+
+</P>
+<P class="MsoNormal" align="center"><b style='mso-bidi-font-weight:normal'><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></b><B><FONT size="-1"><FONT size="+0" color="#0080ff"><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>SUMMER STREAM'05　2nd DAY! ～MEET THE BEAST～</span></FONT></FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><BR>
+<A href="live2005070910.htm"><B><FONT size="+2">■20th ANNIVERSARY PARTY 　「成人式」■</FONT></B></A><BR>
+<BR>
+<FONT size="+1"><FONT color="#0066cc" size="+1"><B>2005.07.09（土）目黒LIVE STATION</B></FONT></FONT><BR>
+      <FONT size="-1">JURASSIC JADE PRESENTS</FONT><BR>
+      <B><FONT color="#0080ff">BEHIND YOKE SYSTEMS 13</FONT></B><BR>
+<BR>
+<B><FONT color="#0066cc" size="+1">2005.07.10（日）筑波PARK DINER</FONT></B><BR>
+      <FONT size="-1">SOUND STUDIO OZ PRESENTS</FONT><BR>
+      <B><FONT color="#0080ff">ＲＥＧＩＯＮ　ＦＲＥＥ　Ｖｏｌ．２</FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><BR>
+<B><A href="live20050625.htm"><FONT size="+2">2005.06.25(土)難波ロケッツ</FONT></A></B><BR>
+<BR>
+<B><FONT color="#0080ff">GOOD RIDDANCE vol.67</FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><BR>
+<B><A href="live20050624.htm"><FONT size="+2">2005.06.24（金）名古屋上前津ZION</FONT></A></B><BR>
+<B><FONT color="#0080ff"><BR>
+NO-REMORSE　presents「DEEP　CONNECT　vol.9」</FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><FONT color="#ff0000" size="+2"><BR>
+</FONT><B><FONT size="+2"><A href="live20050603.htm">2005.06.03 稲毛K's DREAM</A></FONT></B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span><BR>
+<BR>
+<B><FONT color="#0080ff">DEATH COMING INSIDE vol.1<BR>
+“8mm OVERDOSE 2005 JAPAN TOUR”</FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><BR>
+<B><FONT size="+2"><A href="live20050521.htm">2005.05.21 札幌カウンターアクション</A></FONT></B><BR>
+<BR>
+<B><FONT color="#0080ff"><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><span
+lang=EN-US>OVER KILL Vol.88</span></span></FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><BR>
+<B><FONT size="+2"><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0066cc" size="+2"><A href="live20050429.htm">2005.04.29 浜松MESCALIN DRIVE</A><BR>
+</FONT></span></FONT><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0080ff"><BR>
+PARADISE MIXER vol.147</FONT></span></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><BR>
+<A href="live20050423.htm"><B><FONT color="#0066cc" size="+2">2005.04.23 目黒LIVE STATION</FONT></B></A><BR>
+<span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><B><FONT color="#0080ff"><BR>
+BEHIND YOKE SYSTEMS 12</FONT></B></span><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><A href="live20050320.htm"><FONT size="+1"><BR>
+<FONT color="#0066cc" size="+2"><B>２００５．０３．２０ 八王子HAVANA</B></FONT><BR>
+<SPAN lang=EN-US 
+style="FONT-FAMILY: 'ＭＳ Ｐ明朝'; mso-hansi-font-family: Century"></SPAN></FONT><B><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 'ＭＳ Ｐ明朝'; mso-hansi-font-family: Century"></SPAN></B><BR>
+</A><FONT 
+color=#0080ff><B><SPAN 
+style="FONT-FAMILY: 'ＭＳ Ｐ明朝'; mso-hansi-font-family: Century"><SPAN 
+lang=EN-US></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-FAMILY: 'ＭＳ Ｐ明朝'; mso-hansi-font-family: Century; mso-bidi-font-weight: bold">L.R~LOUD 
+ROUND VOL.20</SPAN></B></FONT><BR>
+<SPAN lang=EN-US 
+style="FONT-FAMILY: 'ＭＳ Ｐ明朝'; mso-hansi-font-family: Century"></SPAN><BR>
+</P>
+<HR>
+<P align="center"><BR>
+<A href="live20050219.htm"><B><FONT size="+2" color="#0080ff">２００５．０２．１９<FONT size="+2"> 千日前CLUB WATER<BR>
+</FONT></FONT></B></A><BR>
+<B><FONT color="#0000ff"><FONT color="#0080ff"><FONT color="#0080ff"><span
+style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>【苺楽團と悪魔猫スプリット<FONT color="#0080ff"><FONT color="#0080ff"><span
+lang=EN-US>CD発売記念２DAYS】</span></FONT></FONT></span></FONT></FONT></FONT></B><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+1"><B><FONT color="#ff0000" size="+2"><A href="live20050122.htm">２００５．０１．２２ 横須賀かぼちゃ屋</A></FONT></B></FONT><BR>
+<span lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span><B><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'></span></B><BR>
+<B><FONT color="#0000ff"><FONT color="#0080ff"><FONT color="#0080ff"><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'>FUNNERAL
+OF PSYCHOPATH vol.1</span></FONT></FONT></FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><FONT color="#0000ff"><A href="live20050116.htm"><B><FONT size="+2">２００５．０１．１6</FONT><FONT size="+1"><FONT size="+2"> 高松DIME</FONT></FONT></B></A></FONT><BR>
+<span lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span><BR>
+<FONT color="#0080ff"><FONT color="#0080ff"><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century'><FONT color="#0080ff"><B>VISIONS vol:8</B></FONT></span></FONT></FONT><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><A href="live20050114.htm"><B><FONT color="#0000ff" size="+2">２００５．０１．１４</FONT><FONT size="+1" color="#0000ff"><FONT size="+2"> 徳島JITTERBUG</FONT></FONT></B></A><BR>
+<span lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'></span><BR>
+<B><FONT color="#0080ff">VALETUDO HOUSE vol.1</FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2004</FONT>-</B></FONT></P>
+<HR>
+<P align="center"><FONT color="#ff0000" size="+1"> </FONT><B><A href="live20041230.htm"><FONT color="#0066cc" size="+2">２００４．</FONT><FONT size="+1" color="#0066cc"><FONT size="+2">１２．３０ 難波ROCKETS</FONT></FONT></A></B><BR>
+<BR>
+<B><FONT color="#0080ff"><FONT color="#0080ff"><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:Century;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'>Extreme Rock Orgasm Vol.04</span></FONT><span lang=EN-US style='font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+Century'>「特番」</span></FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><B><A href="live20041229.htm"><FONT color="#0066cc" size="+2">２００４．</FONT><FONT color="#0066cc" size="+1"><FONT size="+2">１２．２９ 名古屋APOLLO THEATER</FONT></FONT></A></B><BR>
+<BR>
+<B><FONT color="#0080ff">[HOUSE OF NOISE VOL..9]</FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><B><A href="live20041219.htm"><FONT color="#0066cc" size="+2">２００４．</FONT><FONT size="+1" color="#0066cc"><FONT size="+2">１２．１９ 仙台MACANA</FONT></FONT></A></B><BR>
+<BR>
+<B><FONT color="#0080ff">DEATH OF BRUTALITY vol.4</FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><B><FONT color="#0066cc" size="+2"><A href="live20041211.htm">２００４．１２．１１渋谷DeSeO</A></FONT></B><BR>
+      <B><FONT color="#0080ff"><BR>
+21世紀旗手</FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><BR>
+<A href="live20041128.htm"><B><FONT color="#0066cc" size="+2">２００４．１１．２８ 筑波PARKDINER</FONT></B></A><BR>
+<BR>
+<B><FONT color="#0080ff">「OZ FEST」SOUND STUDIO OZ 9TH ANNIVERSARY!!<BR>
+GLASSEATER tour final!!JURASSIC JADE release party!!</FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><BR>
+<FONT color="#0066cc" size="+1"><FONT color="#0066cc" size="+2"><B><A href="live20041114.htm"><FONT color="#0066cc" size="+2">２００４.11.14 名古屋鶴舞DAYTRIP</FONT></A></B></FONT></FONT><BR>
+<BR>
+<B><FONT color="#0080ff">OVER the WALL</FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><BR>
+<A href="live20041113.htm"><B><FONT color="#0066cc" size="+2">２００４.11.13 難波ROCKETS</FONT></B></A><BR>
+<BR>
+<B><FONT color="#0000ff">SPEED KILLS ～into the pit～ vol.20</FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><BR>
+<FONT size="+1"><B><FONT size="+2" color="#0066cc"><A href="live20041031.htm">2004.10.31 川崎BOTTOMS UP</A></FONT></B></FONT><BR>
+<B><FONT color="#0000ff"><BR>
+King Goblin presents &quot;DOOM, DOOMER, DOOMEST vol.3&quot;</FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><A href="live20041024.htm"><FONT size="+2" color="#0066cc"><FONT size="+2" color="#0066cc"><B>2004.10.24 静岡SUNASH</B></FONT></FONT></A><BR>
+<BR>
+      <B><FONT color="#0000ff">Oh Fight For</FONT></B><BR>
+</P>
+<HR>
+<P align="center"><B><FONT color="#0000ff" size="+2"><A href="live20041010.htm">2004.10.10 目黒LIVE SATION</A></FONT><FONT color="#0000ff"><BR>
+<BR>
+</FONT><FONT color="#0000ff" size="+1">BEHIND YOKE SYSTEMS 11</FONT><FONT color="#0000ff"> <BR>
+</FONT><FONT size="-1" color="#0000ff"><FONT size="+0">NEW ALBUM『LEFT EYE』RELEASE PARTY</FONT></FONT></B><BR>
+</P>
+<HR>
+<P class="MsoNormal" align="center"><A href="live20040926.htm"><B><FONT color="#0000ff" size="+2">2004.09.26 難波BEARS</FONT></B></A><BR>
+<BR>
+<B><FONT size="-1" color="#0000ff"><span style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></span><span style='font-family:"ＭＳ Ｐ明朝"'><span style='font-size:10.0pt;
+font-family:"ＭＳ Ｐゴシック";mso-hansi-font-family:"Times New Roman";mso-font-kerning:
+0pt;mso-ansi-language:JA'></span></span></FONT><FONT color="#0000ff"><span style='font-family:"ＭＳ Ｐ明朝"'><span style='font-size:10.0pt;
+font-family:"ＭＳ Ｐゴシック";mso-hansi-font-family:"Times New Roman";mso-font-kerning:
+0pt;mso-ansi-language:JA'><FONT size="+1">GARVE NEW WORLD Vol.1</FONT></span></span></FONT></B></P>
+<HR>
+<P class="MsoNormal" align="center"><A href="live20040915.htm"><B><FONT color="#0000ff" size="+2">2004.09.15 柏ALIVE</FONT></B></A><BR>
+<B><BR>
+<FONT size="-1" color="#0000ff"><span style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></span><span style='font-family:"ＭＳ Ｐ明朝"'><span style='font-size:10.0pt;
+font-family:"ＭＳ Ｐゴシック";mso-hansi-font-family:"Times New Roman";mso-font-kerning:
+0pt;mso-ansi-language:JA'></span></span></FONT><FONT color="#0000ff"><span style='font-family:"ＭＳ Ｐ明朝"'><span style='font-size:10.0pt;
+font-family:"ＭＳ Ｐゴシック";mso-hansi-font-family:"Times New Roman";mso-font-kerning:
+0pt;mso-ansi-language:JA'><FONT size="+1">EDGE OF SPIRIT X IMMORTALITY joint tour</FONT></span></span></FONT></B></P>
+<HR>
+<P class="MsoNormal" align="center"><A href="live20040812.htm"><B><FONT color="#0000ff" size="+2">2004.08.12 川崎CLUB CITTA</FONT></B></A><BR>
+<B><BR>
+<FONT size="-1" color="#0000ff"><span style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></span><span style='font-family:"ＭＳ Ｐ明朝"'><span style='font-size:10.0pt;
+font-family:"ＭＳ Ｐゴシック";mso-hansi-font-family:"Times New Roman";mso-font-kerning:
+0pt;mso-ansi-language:JA'></span></span></FONT><FONT color="#0000ff"><span style='font-family:"ＭＳ Ｐ明朝"'><span style='font-size:10.0pt;
+font-family:"ＭＳ Ｐゴシック";mso-hansi-font-family:"Times New Roman";mso-font-kerning:
+0pt;mso-ansi-language:JA'><FONT size="+1">LAST OF SATOO THE EARTH</FONT></span></span></FONT></B><BR>
+</P>
+<HR>
+<P class="MsoNormal" align="center"><FONT size="+1"><B><FONT size="+2" color="#ff0000"><A href="live20040806.htm">2004.08.06　BAYSIDE JENNY</A></FONT></B></FONT><BR>
+<BR>
+<SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;
+mso-hansi-font-family:Century'></SPAN><B><FONT color="#0000cc" size="+1"><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;mso-hansi-font-family:
+Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:
+"ＭＳ 明朝";mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;mso-hansi-font-family:
+Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></SPAN></FONT><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></SPAN><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><FONT size="+1" color="#0000ff"><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-bidi-font-family:"Times New Roman";mso-font-kerning:
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'></span></SPAN></FONT><FONT color="#0000ff">I’ll～vol...2[TOUR FINAL]</FONT></B></P>
+<HR>
+<P align="center"><B><FONT color="#ff0000" size="+2"><A href="live20040724.htm">2004.07.24 鶴舞デイトリップ</A></FONT></B><BR>
+<B><BR>
+<FONT size="-1"><span style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></span><span style='font-family:"ＭＳ Ｐ明朝"'><span style='font-size:10.0pt;
+font-family:"ＭＳ Ｐゴシック";mso-hansi-font-family:"Times New Roman";mso-font-kerning:
+0pt;mso-ansi-language:JA'></span></span></FONT><span style='font-family:"ＭＳ Ｐ明朝"'><span style='font-size:10.0pt;
+font-family:"ＭＳ Ｐゴシック";mso-hansi-font-family:"Times New Roman";mso-font-kerning:
+0pt;mso-ansi-language:JA'></span></span></B><span style='font-family:"ＭＳ Ｐ明朝"'><FONT color="#0000ff"><span style='font-size:10.0pt;
+font-family:"ＭＳ Ｐゴシック";mso-hansi-font-family:"Times New Roman";mso-font-kerning:
+0pt;mso-ansi-language:JA'><FONT size="+1">アフガニスタンジャンキーVOL.27 <BR>
+VOIDD 15周年SP</FONT></span></FONT></span></P>
+<HR>
+<P class="MsoNormal" align="center"><B><FONT color=#ff0000 
+size=+2><A href="live20040620.htm">2004.06.20 八王子HAVANA</A></FONT></B><BR>
+<B><BR>
+<FONT size=-1><SPAN 
+style="FONT-FAMILY: 'ＭＳ 明朝'; mso-ascii-font-family: Century; mso-hansi-font-family: Century"></SPAN><SPAN 
+style="FONT-FAMILY: 'ＭＳ Ｐ明朝'"><SPAN 
+style="FONT-SIZE: 10pt; FONT-FAMILY: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ansi-language: JA"><FONT 
+color=#0000ff size=+0>CLUB HAVANA PRESENTS　</FONT></SPAN></SPAN></FONT><SPAN 
+style="FONT-FAMILY: 'ＭＳ Ｐ明朝'"><SPAN 
+style="FONT-SIZE: 10pt; FONT-FAMILY: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ansi-language: JA"><FONT 
+color=#0000ff size=+1><BR>
+Adrenaline vol'40<BR>
+</FONT></SPAN></SPAN></B></P>
+<HR>
+<P align="center"><B><FONT color="#ff0000" size="+2"><A href="live20040522.htm">2004.05.22 京都・西院ウーララ</A></FONT><FONT color="#0000ff"><BR>
+</FONT><BR>
+<FONT size="-1"><span style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></span><span style='font-family:"ＭＳ Ｐ明朝"'><span style='font-size:10.0pt;
+font-family:"ＭＳ Ｐゴシック";mso-hansi-font-family:"Times New Roman";mso-font-kerning:
+0pt;mso-ansi-language:JA'><FONT color="#0000ff" size="+0">ＥＸＴＲＥＭＥ　ＲＯＣＫ　ＯＲＧＡＳＭ Ｖｏｌ．２　</FONT></span></span></FONT><span style='font-family:"ＭＳ Ｐ明朝"'><span style='font-size:10.0pt;
+font-family:"ＭＳ Ｐゴシック";mso-hansi-font-family:"Times New Roman";mso-font-kerning:
+0pt;mso-ansi-language:JA'><FONT color="#0000ff" size="+1"><BR>
+「混沌女王様」</FONT></span></span></B><BR>
+</P>
+<HR>
+<P align="center"><B><FONT color="#ff0000" size="+2"><A href="live20040503.htm">2004.05.03 福井CHOP</A></FONT></B></P>
+<P align="center"><B><FONT color="#0000ff">LOUDER THAN HELL</FONT></B></P>
+<HR>
+<P align="center"><B><FONT color="#ff0000" size="+2"><A href="live20040429.htm">2004.04.29 筑波SOUND SPACE PARKDINER</A></FONT></B></P>
+<P class="MsoNormal" align="center"><B><FONT color="#0000ff">STUDIO OZ&amp;PARKDINER PRESENTS<BR>
+REGION FREE Vol.1<BR>
+-GATERRING TO &quot;OUTRAGE TOUR 2004&quot;-</FONT></B></P>
+<HR>
+<P align="center"><B><FONT color="#ff0000" size="+2"><A href="live20040320.htm">2004.03.20 目黒LIVE STATION</A></FONT></B></P>
+<P align="center"><B><FONT color="#0000ff">漢企画第三十四弾「爆音降臨」</FONT></B><BR>
+</P>
+<HR>
+<P align="center"><B><FONT color="#ff0000" size="+2"><A href="live20040314.htm">2004.03.14 浜松クエストミュージック</A></FONT></B></P>
+<P align="center"><B><FONT color="#0000ff">PARADISE MIXER Vol.130</FONT></B></P>
+<HR>
+<P align="center"><B><A href="live20040228.htm"><FONT size="+2" color="#0000ff">2004.02.28 </FONT><FONT size="+1"><span
+style='font-family:"ＭＳ 明朝";mso-ascii-font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+"ＭＳ Ｐ明朝";mso-font-kerning:0pt'><FONT size="+2" color="#0000ff">名古屋藤ケ丘MUSIC FARM</FONT></span></FONT></A></B></P>
+<P align="center"><FONT color="#0000ff"><span style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></span></FONT><B><FONT color="#0000ff"><span
+lang=EN-US style='font-family:"ＭＳ Ｐ明朝"'></span>「芸術的爆音」</FONT></B><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2003</FONT>-</B></FONT></P>
+<HR>
+<P class="MsoNormal" align="center"><B><FONT color="#ff0000" size="+2"><A href="live20031228.htm">2003.12.28 新宿アンティノック</A></FONT></B></P>
+<P align="center"><B><FONT color="#0066cc">&quot;</FONT><span lang=EN-US style='font-family:"ＭＳ Ｐゴシック";mso-hansi-font-family:
+Century'><FONT color="#0000ff">THRASH SANCTUARY Vol.38</FONT></span></B><span lang=EN-US style='font-size:10.0pt;
+font-family:"ＭＳ Ｐゴシック";mso-hansi-font-family:Century'></span><B><FONT color="#0066cc">&quot;</FONT></B></P>
+<HR>
+<P class="MsoNormal" align="center"><B><FONT color="#0000ff"><A href="live20031123.htm"><FONT size="+2">2003.11.23 新宿ウルガ</FONT></A></FONT></B></P>
+<P align="center"><B><FONT color="#0066cc">&quot;ROSEROSE 20th ANNIVERSARY SPECIAL GIG! 2Days&quot;</FONT></B></P>
+<HR>
+<P align="center"><B><FONT color="#ff0000" size="+2"><A href="live20031108.htm">2003.11.08 八王子ハバナ</A></FONT></B></P>
+<P align="center"><B><FONT color="#0066cc">■L.R~LOUD ROUND VOL'16~■</FONT></B></P>
+<HR>
+<P align="center"><A href="live20030923.htm"><B><FONT size="+2" color="#0000ff">2003.09.23 </FONT></B><FONT size="+1"><B><span
+style='font-family:"ＭＳ 明朝";mso-ascii-font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+"ＭＳ Ｐ明朝";mso-font-kerning:0pt'><FONT size="+2" color="#0000ff">難波ロケッツ</FONT></span></B></FONT></A><BR>
+<BR>
+<span lang=EN-US
+style='font-family:"ＭＳ Ｐ明朝"'><B><FONT color="#0000ff">SPEED KILLS～into the pit～vol.17<BR>
+OUTRAGE20周年記念アルバム発売記念</FONT></B></span><BR>
+</P>
+<HR>
+<P align="center"><FONT color="#0000ff" size="+2"><B><A href="live20030919.htm">2003.09.19 <span
+style='font-family:"ＭＳ 明朝";mso-ascii-font-family:"ＭＳ Ｐ明朝";mso-hansi-font-family:
+"ＭＳ Ｐ明朝";mso-font-kerning:0pt'>目黒</span><span lang=EN-US style='font-family:
+"ＭＳ Ｐ明朝";mso-fareast-font-family:"ＭＳ 明朝";mso-font-kerning:0pt'>LIVE<span
+style="mso-spacerun: yes">&nbsp; </span>STATION</span></A></B></FONT></P>
+<P align="center"><B><FONT color="#0000ff">BYS RECORDS presents BEHIND YOKE SYSTEMS 1</FONT></B><FONT color="#0000ff">0</FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+1"><B><FONT size="+2" color="#0000ff"><A href="live20030823.htm">2003.08.23 新潟JUNK BOX mini</A></FONT></B></FONT></P>
+<P class="MsoNormal" align="center"><FONT size="+1"><B><FONT color="#0000ff">to the EDEN</FONT></B></FONT></P>
+<HR>
+<P class="MsoNormal" align="center"><FONT size="+1"><B><FONT size="+2" color="#ff0000"><A href="live20030726.htm">2003.07.26 名古屋栄タイトロープ</A></FONT></B></FONT><BR>
+<BR>
+<B><FONT color="#0000ff">VIO SYSTEM DIVIDE PRESENT</FONT><FONT color="#0000ff" size="+1"> <BR>
+SWIPING CRUSH BALL 14TH</FONT></B></P>
+<HR>
+<P align="center"><FONT size="+1"><FONT size="+2" color="#0000ff"><A href="live20030706.htm"><B>2003.07.06 浜松クエストミュージック</B></A></FONT></FONT><BR>
+<B><FONT color="#0000ff"><BR>
+パラダイスミキサー</FONT></B></P>
+<HR>
+<P align="center"><FONT color="#0000ff"><B><A href="live20030629.htm"><FONT size="+1"><FONT size="+2">2003.06.29 筑波PARK　DINER</FONT></FONT></A></B></FONT><BR>
+<BR>
+<B><FONT color="#0000ff">PULLING TEETHレコh発ファイナル</FONT></B></P>
+<HR>
+<P align="center"><FONT size="+2" color="#0000ff"><B><A href="live20030601.htm">2003.06.01 BAYSIDE JENNY</A></B></FONT><B><BR>
+<BR>
+<FONT color="#0000ff">JPN LOUDROCK FEDERATION「志」</FONT></B></P>
+<HR>
+<P align="center"><FONT size="+2" color="#0000ff"><B><A href="live20030524.htm">2003.05.24 新宿ARC The live club</A></B></FONT><BR>
+<BR>
+<B><FONT size="+1" color="#0000ff">KING BOHEMIAN#01</FONT></B></P>
+<HR>
+<CENTER></CENTER>
+<P align="center"><BR>
+<A href="live20030323.htm"><FONT size="+1"><B><FONT size="+2" color="#0000ff">2003.03.23 新宿アンティノック</FONT></B></FONT></A><BR>
+<BR>
+<SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;
+mso-hansi-font-family:Century'></SPAN><B><FONT color="#0000cc" size="+1"><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;mso-hansi-font-family:
+Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:
+"ＭＳ 明朝";mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;mso-hansi-font-family:
+Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></SPAN></FONT><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></SPAN><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><FONT size="+1" color="#0000ff"><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-bidi-font-family:"Times New Roman";mso-font-kerning:
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'></span>GIGATON　CD Release Party</SPAN></FONT></B></P>
+<HR>
+<P class="MsoNormal" align="center"><FONT size="+1"><B><FONT size="+2" color="#ff0000"><A href="live20030208.htm">2003.02.08 八王子HAVANA</A></FONT></B></FONT><BR>
+<BR>
+<SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;
+mso-hansi-font-family:Century'></SPAN><FONT color="#0000cc" size="+1"><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;mso-hansi-font-family:
+Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:
+"ＭＳ 明朝";mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;mso-hansi-font-family:
+Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></SPAN></FONT><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></SPAN><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><B><FONT size="+1" color="#0000ff"><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-size:
+12.0pt;font-family:"ＭＳ Ｐ明朝";mso-bidi-font-family:"Times New Roman";mso-font-kerning:
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'>■L.R
+~LOUD ROUND~ VOL'10~■</span></SPAN></FONT></B></P>
+<HR>
+<P align="center"><FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2002</FONT>-</B></FONT></P>
+<HR>
+<P align="center"><FONT size="+1"><B><FONT size="+2" color="#ff0000"><A href="live2002122122.htm">2002.12.21 佐賀GEILS</A></FONT></B></FONT><BR>
+<BR>
+<B><FONT size="+1" color="#0000ff"><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'>EXTREAM　ANTHEM　Vol.13</SPAN></FONT></B><B><FONT size="+1" color="#0000ff"><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></SPAN></FONT></B><BR>
+<BR>
+<B><A href="live2002122122.htm"><FONT size="+2">2002.12.22 福岡KEATH　FLACK</FONT></A></B><BR>
+<BR>
+<FONT size="+1" color="#0000ff"><B><SPAN lang="EN-US">GENOCIDE</SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'>　</SPAN><SPAN lang="EN-US">AGEIN</SPAN></B></FONT><FONT color="#cc0000" size="+2"><B><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;
+mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;mso-hansi-font-family:
+Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;
+mso-hansi-font-family:Century'></SPAN></B></FONT><FONT color="#cc0000" size="+2" face="ＭＳ ゴシック"><B><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;
+mso-hansi-font-family:Century'></SPAN></B></FONT><SPAN lang="EN-US"></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;mso-hansi-font-family:
+Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;
+mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;mso-hansi-font-family:
+Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN lang="EN-US"></SPAN><SPAN lang="EN-US"></SPAN><BR>
+<FONT size="+1" color="#0000ff"><B><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'></SPAN><SPAN lang="EN-US"></SPAN><SPAN lang="EN-US"></SPAN></B></FONT></P>
+<HR>
+<P align="center"><A href="live20021209.htm"><FONT size="+2" color="#0000ff"><B>2002.12.9 筑波Park　Diner</B></FONT></A><BR>
+<SPAN lang="EN-US" style='font-size:10.5pt;mso-bidi-font-size:
+10.0pt;font-family:Century;mso-fareast-font-family:"ＭＳ 明朝";mso-bidi-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:
+AR-SA'><B><FONT color="#0000ff">OPEN THE GATE OF HELL</FONT></B></SPAN><BR>
+<BR></P>
+<HR>
+<P align="center"><A href="live20021130.htm"><B><FONT size="+2" color="#0000ff">2002.1130 渋谷DeSeO</FONT></B></A><BR>
+<B><FONT size="+1" color="#0000ff"><BR>
+重爆Vol.2</FONT></B><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><A href="live20021102.htm"><FONT color="#0000ff" size="+2"><B>2002.11.2 難波ロケッツ</B></FONT></A></P>
+<P align="center"><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;
+mso-hansi-font-family:Century'></SPAN><FONT color="#0000ff" size="+1"><B><SPAN lang="EN-US">RAGING</SPAN><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'>　</SPAN><SPAN lang="EN-US">FURY</SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'>　</SPAN><SPAN lang="EN-US">20</SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;mso-hansi-font-family:
+Century'>th </SPAN><SPAN lang="EN-US">Anniversary</SPAN><SPAN style='font-family:
+"ＭＳ 明朝";mso-ascii-font-family:Century;mso-hansi-font-family:Century'><BR>
+「</SPAN><SPAN lang="EN-US">STORM</SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'> </SPAN><SPAN lang="EN-US">of</SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:Century;mso-hansi-font-family:
+Century'> </SPAN><SPAN lang="EN-US">RIOT</SPAN><SPAN style='font-family:"ＭＳ 明朝";
+mso-ascii-font-family:Century;mso-hansi-font-family:Century'> </SPAN><SPAN lang="EN-US">BLOW</SPAN><SPAN style='font-family:"ＭＳ 明朝";mso-ascii-font-family:
+Century;mso-hansi-font-family:Century'></SPAN></B></FONT><FONT color="#0000ff">」</FONT><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><A href="live20021006.htm"><FONT size="+1"><B><FONT color="#0000ff" size="+2">2002.10.6 鶴舞DAY TRIP</FONT></B><BR>
+</FONT></A><BR>
+<FONT color="#0000ff" size="4"><B>ZERO FIGHTER MEETING ＲＯＣＫ　ＯＵＴ　２００２</B></FONT><BR>
+<BR></P>
+<HR>
+<P align="center"><FONT color="#0000ff"><A href="live20020831.htm"><B><FONT size="+2">2002.8.31 目黒LIVE　STATION<BR>
+</FONT></B></A></FONT><FONT color="#0000ff" size="+4"><SPAN lang="EN-US" style='font-size:10.5pt;mso-bidi-font-size:
+10.0pt;font-family:Century;mso-fareast-font-family:"ＭＳ 明朝";mso-bidi-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:
+AR-SA'></SPAN><SPAN lang="EN-US" style='font-size:10.5pt;mso-bidi-font-size:
+10.0pt;font-family:Century;mso-fareast-font-family:"ＭＳ 明朝";mso-bidi-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:
+AR-SA'><SPAN style="mso-spacerun: yes"></SPAN></SPAN></FONT></P>
+<P align="center"><SPAN lang="EN-US" style='font-size:10.5pt;mso-bidi-font-size:
+10.0pt;font-family:Century;mso-fareast-font-family:"ＭＳ 明朝";mso-bidi-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:
+AR-SA'></SPAN><B><FONT color="#0000ff" size="+2">Damage　Factory　Vol.13</FONT></B></P>
+<P><BR>
+</P>
+<HR>
+<P align="center"><B><A href="live20020804.htm"><FONT size="+2">2002.8.4 八王子HAVANA</FONT></A></B><BR>
+<BR>
+<BR></P>
+<HR>
+<P align="center"><B><FONT size="+2"><A href="live20020727.htm">2002.7.27 札幌　COLONY</A></FONT></B><BR>
+<FONT size="+2" face="ＭＳ 明朝" color="#0000ff"><B>OVER KILL</B></FONT><BR>
+<BR>
+</P>
+<HR>
+<P align="center"><FONT color="#0000ff"><B><FONT size="+2"><A href="live20020622.htm">2002.6.22 鶴舞デイトリップ</A></FONT></B><SPAN lang="EN-US" style='font-size:10.5pt;mso-bidi-font-size:
+10.0pt;font-family:Century;mso-fareast-font-family:"ＭＳ 明朝";mso-bidi-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:
+AR-SA'></SPAN><SPAN lang="EN-US" style='font-size:10.5pt;mso-bidi-font-size:
+10.0pt;font-family:Century;mso-fareast-font-family:"ＭＳ 明朝";mso-bidi-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:
+AR-SA'><SPAN style="mso-spacerun: yes"></SPAN></SPAN></FONT><BR>
+<SPAN lang="EN-US" style='font-size:10.5pt;mso-bidi-font-size:
+10.0pt;font-family:Century;mso-fareast-font-family:"ＭＳ 明朝";mso-bidi-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:
+AR-SA'><FONT size="+2" color="#0000ff">Swiping Crush Ball<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>at Tsurumai DAYTRIP</FONT></SPAN><BR>
+</P>
+<HR>
+<P align="center"><B><FONT size="+2" color="#ff0000"><A href="live20020502.htm">2002.5.02 新宿URGA</A></FONT></B><BR>
+<FONT color="#0000cc" size="+2"><B>URGA2ndANNIVERSARY-DAMN YOU-</B></FONT><BR>
+</P>
+<HR>
+<P align="center"><B><FONT size="+2"><A href="live200203016.htm">2002.3.16　八王子ＨＡＶＡＮＡ</A></FONT></B><BR>
+<FONT color="#0000cc" size="+2"><B>～LOUD　ROUND～　VOL.１</B></FONT></P>
+<HR>
+<P align="center"><A href="live20020309.htm"><B><FONT size="+2">2002.3.9　渋谷サイクロン</FONT></B></A><BR>
+<FONT size="2"><B><FONT color="#0000cc" size="5">HELL BREAKS LOOSE TOUR '02</FONT></B></FONT><BR>
+</P>
+<HR>
+<P align="center"><B><FONT size="+2" color="#ffffff"><A href="live20020223.htm">2002.2.23 目黒ＬＩＶＥ　ＳＴＡＴＩＯＮ</A><BR>
+</FONT></B><FONT color="#0000cc" size="+2">漢企画第十五弾</FONT><BR>
+　　　　　<FONT color="#0000cc" size="+1">POWERSQUAD &quot;THE GRADIATOR&quot;発売記念！<BR>
+　　　　【BATTLE FIELD!!!】</FONT></P>
+<HR>
+<P align="center"><FONT size="+4"><B>-<FONT color="#ffffff" face="HGP創英角ｺﾞｼｯｸUB">2001</FONT>-</B></FONT></P>
+<HR>
+<P align="center"><B><FONT size="+2" color="#ffffff"><A href="live20020120.htm"><U>2002.1.20 寺田町FIRE　LOOP</U></A><BR>
+</FONT></B><FONT size="+2" color="#0000cc">『毘釈門―第壱幕―』</FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT color="#ffffff"><B><FONT size="+2"><U><A href="live1027.htm">2001.10.27 目黒LIVE　STATION</A></U><BR>
+</FONT></B></FONT><FONT size="+2" color="#0000ff">BEHIND　YOKE　SYSTEMS　９</FONT><BR></P>
+<HR>
+<P align="center"><A href="live0908.htm"><B><FONT size="+2" color="#0066cc">2001.09.08　新宿アンティノック<BR>
+</FONT></B></A><FONT size="+2" color="#0000cc"><B>SURVIVE　REALIZEレコ発</B></FONT><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+2" color="#ffffff"><B><FONT size="+3" color="#cc0000"><U><A href="live0812.htm"><FONT size="+2" color="#0066cc">2001.08.12　浜松メイワン　エアロホール</FONT></A></U></FONT></B></FONT><BR>
+<B><FONT color="#0000cc"><FONT size="+2">PARADISE　MIXER　SPESIAL</FONT></FONT></B><BR>
+</P>
+<HR>
+<P align="center"><FONT size="+1"><B><FONT size="+3" color="#cc0000"><A href="live0720.htm"><FONT size="+2" color="#0066cc">2001.07.20　西九条ＢＲＡＮＤ　ＮＥＷ</FONT></A></FONT></B></FONT><FONT size="+1"><B><FONT size="+3" color="#cc0000"><BR>
+</FONT></B></FONT><B><FONT size="+2" color="#0000cc">ＲＥＡＬ　ＭＥＴＡＬ　ＧＡＴＨＥＲＩＮＧ</FONT><FONT size="+1" color="#0000cc">“ＷＡＲＣＲＹ”ＶＯＬ．５</FONT></B><FONT color="#cccccc"><B><BR>
+</B></FONT><FONT color="#cccccc"><BR>
+</FONT></P>
+<HR>
+<P align="center"><A href="live0714.htm"><FONT size="+1"><B><FONT size="+2" color="#0066cc">2001.07.14 宇都宮ＶＯＧＵＥ</FONT></B></FONT></A><BR>
+<B><FONT size="+2" color="#0000cc">ＳＴＡＭＰＥＤ　ＳＴＵＰＩＤ　ＬＩＭＩＴＥＤ</FONT></B><BR>
+</P>
+<HR>
+<P><BR>
+BACK TO<BR>
+<a href="contents.htm" id="_HPB_ROLLOVER2" onmouseout="HpbImgSwap('_HPB_ROLLOVER2', 'hizumi0111.JPG');" onmouseover="HpbImgSwap('_HPB_ROLLOVER2', 'hizumi011.JPG');"><img src="hizumi0111.JPG" width="40" height="40" border="0" name="_HPB_ROLLOVER2"></a></P>
+<P><BR>
+</P>
+<P><BR>
+</P>
+<P><BR>
+</P>
+</BODY>
+</HTML>
